@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
 #game-logo {
     background-color: rgba(128, 0, 32);
     color: rgba(255, 233, 0);
+    font-size: 'Rakkas', cursive;
 }
