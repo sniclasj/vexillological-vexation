@@ -9,3 +9,9 @@ beforeAll(() => {
     document.write(fileContents);
     document.close();
 });
+
+describe("game object contains correct keys", () => {
+    test("correct-answers key exists", () => {
+        expect("correct-answers" in game).toBe(true);
+    });
+});
