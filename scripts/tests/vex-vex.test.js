@@ -11,7 +11,7 @@ beforeAll(() => {
 });
 
 describe("game object contains correct keys", () => {
-    test("correct-answers key exists", () => {
-        expect("correct-answers" in game).toBe(true);
+    test("correct key exists", () => {
+        expect("correct" in game).toBe(true);
     });
 });
