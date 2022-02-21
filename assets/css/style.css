@@ -21,11 +21,17 @@ button:hover {
 /* Flag images and respective ID numbers */
 
 #flag-id-1 {
-    background-image:"../assets/images/wales-flag.png";
+    background-image:url("/assets/images/wales-flag.png");
+    width: 100%;
+    min-height: 300px;
+    background-repeat: no-repeat;
 }
 
 #flag-id-2 {
-    background-image: "../assets/images/new-zealand-flag";
+    background-image:url("/assets/images/new-zealand-flag.png");
+    width: 100%;
+    min-height: 300px;
+    background-repeat: no-repeat;
 }
 
 #flag-id-3 {
