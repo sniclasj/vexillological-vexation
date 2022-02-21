@@ -32,4 +32,7 @@ describe("newGame works correctly", () => {
     test("should set game correct to zero", () => {
         expect(game.correct).toEqual(0);
     });
+    test("should set game incorrect to zero", () => {
+        expect(game.incorrect).toEqual(0);
+    });
 });
