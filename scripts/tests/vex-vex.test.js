@@ -20,3 +20,16 @@ describe("game object contains correct keys", () => {
         expect("incorrect" in game).toBe(true);
     });
 });
+
+describe("newGame works correctly", () => {
+    beforeAll(()=>{
+        game.correct = 15;
+        game.incorrect = 3;
+        document.getElementById("correct").innerText = "15";
+        document.getElementById("incorrect").innerText = "3";
+        newGame();
+    });
+    test("should set game correct to zero", () => {
+        expect(game.correct).toEqual(0);
+    });
+});
