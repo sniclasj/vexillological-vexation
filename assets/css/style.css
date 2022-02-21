@@ -5,3 +5,15 @@
     color: rgba(255, 233, 0);
     font-family: 'Rakkas', cursive;
 }
+
+button {
+    background-color: rgba(128, 0, 32);
+    color: rgba(255, 233, 0);
+    font-family: 'Rakkas', cursive !important;
+}
+
+button:hover {
+    background-color: rgba(255, 233, 0);
+    color: rgba(128, 0, 32);
+    font-family: 'Rakkas', cursive !important;
+}
