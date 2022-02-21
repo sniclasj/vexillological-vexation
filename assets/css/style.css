@@ -21,11 +21,11 @@ button:hover {
 /* Flag images and respective ID numbers */
 
 #flag-id-1 {
-    background-color: blue;
+    background-image:"../assets/images/wales-flag.png";
 }
 
 #flag-id-2 {
-    background-color: blue;
+    background-image: "../assets/images/new-zealand-flag";
 }
 
 #flag-id-3 {
