@@ -3,4 +3,8 @@ let game = {
     incorrect: 0,
 };
 
-module.exports = { game };
+function newGame () {
+    game.correct = 0;
+};
+
+module.exports = { game, newGame };
