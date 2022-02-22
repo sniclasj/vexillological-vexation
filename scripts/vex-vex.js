@@ -1,7 +1,7 @@
 let game = {
     correct: 0,
     incorrect: 0,
-    flags: ["wales", "new-zealand"],
+    flag1: ["wales", "new-zealand"],
     country: ["wales","new-zealand"],
 };
 
