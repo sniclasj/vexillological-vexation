@@ -22,6 +22,9 @@ describe("game object contains correct keys", () => {
     test("flag1 key exists", () => {
         expect("flag1" in game).toBe(true);
     });
+    test("flag2 key exists", () => {
+        expect("flag2" in game).toBe(true);
+    });
     test("country name key exists", () => {
         expect("country" in game).toBe(true);
     });
