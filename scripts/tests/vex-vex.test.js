@@ -77,7 +77,7 @@ describe("startGame works correctly", () => {
         document.getElementById("flag-id-0");
         startGame();
     });
-    test("should populate country name with a random country", () => {
-        expect(game.country).toEqual("Wales");
+    test("should populate country name with a random number between 1 and 50", () => {
+        expect(game.country).toEqual("1");
     });
 });
