@@ -11,6 +11,7 @@ function newGame () {
     game.incorrect = 0;
     game.country = "???";
     game.flag1 = "flag-id-0";
+    game.flag2 = "flag-id-0";
 };
 
 module.exports = { game, newGame };
