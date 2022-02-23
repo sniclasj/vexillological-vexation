@@ -10,6 +10,7 @@ function newGame () {
     game.correct = 0;
     game.incorrect = 0;
     game.country = "???";
+    game.flag1 = "flag-id-0";
 };
 
 module.exports = { game, newGame };
