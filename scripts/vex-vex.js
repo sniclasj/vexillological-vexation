@@ -14,4 +14,8 @@ function newGame () {
     game.flag2 = "flag-id-0";
 };
 
-module.exports = { game, newGame };
+function startGame () {
+
+}
+
+module.exports = { game, newGame, startGame };
