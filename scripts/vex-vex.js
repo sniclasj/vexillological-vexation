@@ -15,7 +15,7 @@ function newGame () {
 };
 
 function startGame () {
-    game.country = "Wales";
+    game.country = 1;
 };
 
 module.exports = { game, newGame, startGame };
