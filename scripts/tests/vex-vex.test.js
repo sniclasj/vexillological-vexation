@@ -11,7 +11,7 @@ beforeAll(() => {
     document.write(fileContents);
     document.close();
 });
-
+// Add game keys
 describe("game object contains correct keys", () => {
     test("correct key exists", () => {
         expect("correct" in game).toBe(true);
@@ -30,6 +30,7 @@ describe("game object contains correct keys", () => {
     });
 });
 
+// What happens when the New Game button is clicked
 describe("newGame works correctly", () => {
     beforeAll(()=>{
         game.correct = 15;
@@ -58,5 +59,25 @@ describe("newGame works correctly", () => {
     });
     test("should set game flag2 to base flag", () => {
         expect(game.flag2).toEqual("flag-id-0");
+    });
+});
+
+// What happens when Start button is clicked
+describe("startGame works correctly", () => {
+    beforeAll(()=>{
+        game.correct = 0;
+        game.incorrect = 0;
+        game.country = "???";
+        game.flag1 = "flag-id-0";
+        game.flag2 = "flag-id-0";
+        document.getElementById("correct").innerText = "0";
+        document.getElementById("incorrect").innerText = "0";
+        document.getElementById("country-name").innerText = "???";
+        document.getElementById("flag-id-0");
+        document.getElementById("flag-id-0");
+        startGame();
+    });
+    test("should populate country name with random a random country", () => {
+        expect(game.country).toEqual("Wales");
     });
 });
