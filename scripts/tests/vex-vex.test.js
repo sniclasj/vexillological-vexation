@@ -78,6 +78,6 @@ describe("startGame works correctly", () => {
         startGame();
     });
     test("should populate country name with a random number between 1 and 50", () => {
-        expect(game.country).toEqual("1");
+        expect(game.country).toEqual(1);
     });
 });
