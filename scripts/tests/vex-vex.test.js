@@ -35,11 +35,13 @@ describe("newGame works correctly", () => {
         game.correct = 15;
         game.incorrect = 3;
         game.country = "New Zealand";
-        game.flag1 = "flag-id-1"
+        game.flag1 = "flag-id-1";
+        game.flag2 = "flag-id-2";
         document.getElementById("correct").innerText = "15";
         document.getElementById("incorrect").innerText = "3";
         document.getElementById("country-name").innerText = "New Zealand";
         document.getElementById("flag-id-1");
+        document.getElementById("flag-id-2");
         newGame();
     });
     test("should set game correct to zero", () => {
