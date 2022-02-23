@@ -34,8 +34,10 @@ describe("newGame works correctly", () => {
     beforeAll(()=>{
         game.correct = 15;
         game.incorrect = 3;
+        game.country = "New Zealand";
         document.getElementById("correct").innerText = "15";
         document.getElementById("incorrect").innerText = "3";
+        document.getElementById("country-name").innerText = "New Zealand";
         newGame();
     });
     test("should set game correct to zero", () => {
@@ -43,5 +45,8 @@ describe("newGame works correctly", () => {
     });
     test("should set game incorrect to zero", () => {
         expect(game.incorrect).toEqual(0);
+    });
+    test("should set game country to ???", () => {
+        expect(game.country).toEqual("???");
     });
 });
