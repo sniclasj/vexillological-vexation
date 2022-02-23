@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
- const {game, newGame} = require("../vex-vex");
+ const {game, newGame, startGame} = require("../vex-vex");
 
 beforeAll(() => {
     let fs = require("fs");
