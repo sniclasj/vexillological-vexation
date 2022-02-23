@@ -35,9 +35,11 @@ describe("newGame works correctly", () => {
         game.correct = 15;
         game.incorrect = 3;
         game.country = "New Zealand";
+        game.flag1 = "flag-id-1"
         document.getElementById("correct").innerText = "15";
         document.getElementById("incorrect").innerText = "3";
         document.getElementById("country-name").innerText = "New Zealand";
+        document.getElementById("flag-id-1");
         newGame();
     });
     test("should set game correct to zero", () => {
@@ -48,5 +50,8 @@ describe("newGame works correctly", () => {
     });
     test("should set game country to ???", () => {
         expect(game.country).toEqual("???");
+    });
+    test("should set game flag1 to base flag", () => {
+        expect(game.flag1).toEqual("flag-id-0");
     });
 });
