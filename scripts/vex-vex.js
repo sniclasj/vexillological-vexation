@@ -9,6 +9,7 @@ let game = {
 function newGame () {
     game.correct = 0;
     game.incorrect = 0;
+    game.country = "???";
 };
 
 module.exports = { game, newGame };
