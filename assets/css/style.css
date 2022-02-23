@@ -20,6 +20,12 @@ button:hover {
 
 /* Flag images and respective ID numbers */
 
+#flag-id-0 {
+    background: url() center no-repeat;
+    width: 100%;
+    min-height: 300px;
+}
+
 #flag-id-1 {
     background: url("../images/wales-flag.png") center no-repeat;
     width: 100%;
