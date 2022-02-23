@@ -54,4 +54,7 @@ describe("newGame works correctly", () => {
     test("should set game flag1 to base flag", () => {
         expect(game.flag1).toEqual("flag-id-0");
     });
+    test("should set game flag2 to base flag", () => {
+        expect(game.flag2).toEqual("flag-id-0");
+    });
 });
