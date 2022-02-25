@@ -15,11 +15,7 @@ function newGame() {
 };
 
 function startGame() {
-    // Plan is for this to generate a number which
-    // links to a country name in an object e.g. 
-    // let country1 = Math.floor(Math.random() * 25) + 1;
-    // along with var (countries) = {1:"Wales", 2:"New Zealand"}
-    game.country = 1;
+    game.country = Math.floor(Math.random() * 50) + 1;
 };
 
 module.exports = {
