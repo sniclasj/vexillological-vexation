@@ -77,7 +77,9 @@ describe("startGame works correctly", () => {
         document.getElementById("flag-id-0");
         startGame();
     });
+    // Code credit https://stackoverflow.com/questions/44712917/how-to-test-a-range-of-numbers-with-jest diralik
     test("should populate country name with a random number between 1 and 50", () => {
-        expect(game.country).toEqual(1);
+        expect(game.country).toBeGreaterThanOrEqual(1);
+        expect(game.country).toBeLessThanOrEqual(50);
     });
 });
