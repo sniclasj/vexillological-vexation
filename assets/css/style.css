@@ -21,9 +21,14 @@ button:hover {
 /* Flag images and respective ID numbers */
 
 #flag-id-0 {
-    background: url() center no-repeat;
+    background-color: rgba(128, 0, 32);
+    color: rgba(255, 233, 0);
     width: 100%;
     min-height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-family: 'Rakkas', cursive !important;
+    font-size: 900%;
 }
 
 #flag-id-1 {
