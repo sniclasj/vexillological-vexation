@@ -96,7 +96,7 @@ describe("startGame works correctly", () => {
     });
     // Code credit https://stackoverflow.com/questions/69816466/how-to-check-for-multiple-values-in-jest-or-operator Maurice
     test("random number for country should equal random number of flag1 or flag2", () => {
-        expect(game.country).toBe(game.flag1 || game.flag2);
+        expect(game.flag1)||expect(game.flag2).toBe(game.country);
     });
     test("random number for flag1 cannot be the same as random number for flag2", () => {
         expect(game.flag1).not.toBe(game.flag2);
