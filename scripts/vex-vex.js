@@ -1,9 +1,9 @@
 let game = {
     correct: 0,
     incorrect: 0,
-    flag1: ["wales", "new-zealand"],
-    flag2: ["wales", "new-zealand"],
-    country: ["wales", "new-zealand"],
+    flag1: [],
+    flag2: [],
+    country: [],
 };
 
 function newGame() {
