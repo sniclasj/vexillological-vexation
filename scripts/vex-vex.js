@@ -23,11 +23,12 @@ function startGame() {
     // a different flag2 number. Not sure if it is robust enough
     // to guarantee that flag1 won't equal flag2 again!
     if (game.flag1 = game.flag2) {
+        game.flag1;
         game.flag2 = Math.floor(Math.random() * 50) + 1;
         game.country = [game.flag1, game.flag2][Math.floor(Math.random() * 2)];
     } else {
-        game.flag1 = Math.floor(Math.random() * 50) + 1;
-        game.flag2 = Math.floor(Math.random() * 50) + 1;
+        game.flag1;
+        game.flag2;
         game.country = [game.flag1, game.flag2][Math.floor(Math.random() * 2)];
     };
 };
