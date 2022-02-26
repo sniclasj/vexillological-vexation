@@ -15,9 +15,9 @@ function newGame() {
 };
 
 function startGame() {
-    game.country = Math.floor(Math.random() * 50) + 1;
     game.flag1 = Math.floor(Math.random() * 50) + 1;
     game.flag2 = Math.floor(Math.random() * 50) + 1;
+    game.country = [game.flag1, game.flag2][Math.floor(Math.random() * 2)];
 };
 
 module.exports = {
