@@ -94,10 +94,6 @@ describe("startGame works correctly", () => {
         expect(game.flag2).toBeGreaterThanOrEqual(1);
         expect(game.flag2).toBeLessThanOrEqual(50);
     });
-    test("should populate flag2 with a random number between 1 and 50", () => {
-        expect(game.flag2).toBeGreaterThanOrEqual(1);
-        expect(game.flag2).toBeLessThanOrEqual(50);
-    });
     // Code credit https://stackoverflow.com/questions/69816466/how-to-check-for-multiple-values-in-jest-or-operator Maurice
     test("random number for country should equal random number of flag1 or flag2", () => {
         expect(game.country).toBe(game.flag1 || game.flag2);
