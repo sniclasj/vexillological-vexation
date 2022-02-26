@@ -87,4 +87,9 @@ describe("startGame works correctly", () => {
         expect(game.flag1).toBeGreaterThanOrEqual(1);
         expect(game.flag1).toBeLessThanOrEqual(50);
     });
+
+    test("should populate flag2 with a random number between 1 and 50", () => {
+        expect(game.flag2).toBeGreaterThanOrEqual(1);
+        expect(game.flag2).toBeLessThanOrEqual(50);
+    });
 });
