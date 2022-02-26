@@ -2,7 +2,11 @@
  * @jest-environment jsdom
  */
 
- const {game, newGame, startGame} = require("../vex-vex");
+const {
+    game,
+    newGame,
+    startGame
+} = require("../vex-vex");
 
 beforeAll(() => {
     let fs = require("fs");
@@ -32,7 +36,7 @@ describe("game object contains correct keys", () => {
 
 // What happens when the New Game button is clicked
 describe("newGame works correctly", () => {
-    beforeAll(()=>{
+    beforeAll(() => {
         game.correct = 15;
         game.incorrect = 3;
         game.country = "New Zealand";
@@ -64,7 +68,7 @@ describe("newGame works correctly", () => {
 
 // What happens when Start button is clicked
 describe("startGame works correctly", () => {
-    beforeAll(()=>{
+    beforeAll(() => {
         game.correct = 0;
         game.incorrect = 0;
         game.country = "???";
@@ -82,14 +86,20 @@ describe("startGame works correctly", () => {
         expect(game.country).toBeGreaterThanOrEqual(1);
         expect(game.country).toBeLessThanOrEqual(50);
     });
-
     test("should populate flag1 with a random number between 1 and 50", () => {
         expect(game.flag1).toBeGreaterThanOrEqual(1);
         expect(game.flag1).toBeLessThanOrEqual(50);
     });
-
     test("should populate flag2 with a random number between 1 and 50", () => {
         expect(game.flag2).toBeGreaterThanOrEqual(1);
         expect(game.flag2).toBeLessThanOrEqual(50);
+    });
+    test("should populate flag2 with a random number between 1 and 50", () => {
+        expect(game.flag2).toBeGreaterThanOrEqual(1);
+        expect(game.flag2).toBeLessThanOrEqual(50);
+    });
+    // Code credit https://stackoverflow.com/questions/51519041/jest-matcher-to-match-any-one-of-three-values jordrake
+    test("random number for country should equal random number of flag1 or flag2", () => {
+        expect(game.country).toBeOneOf([game.flag1, game.flag2]);
     });
 });
