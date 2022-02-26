@@ -98,4 +98,7 @@ describe("startGame works correctly", () => {
     test("random number for country should equal random number of flag1 or flag2", () => {
         expect(game.country).toBe(game.flag1 || game.flag2);
     });
+    test("random number for flag1 cannot be the same as random number for flag2", () => {
+        expect(game.flag1).not.toBe(game.flag2);
+    });
 });
