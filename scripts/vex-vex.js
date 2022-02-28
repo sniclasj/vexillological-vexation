@@ -8,7 +8,7 @@ let game = {
     guessedflag: [],
 };
 
-function newGame() {
+function resetGame() {
     game.questnum = 0;
     game.correct = 0;
     game.incorrect = 0;
@@ -38,6 +38,6 @@ function startGame() {
 
 module.exports = {
     game,
-    newGame,
+    resetGame,
     startGame
 };
