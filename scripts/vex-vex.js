@@ -2,10 +2,10 @@ let game = {
     questnum: 0,
     correct: 0,
     incorrect: 0,
-    flag1: [],
-    flag2: [],
-    country: [],
-    guessedflag: [],
+    flag1: 0,
+    flag2: 0,
+    country: 0,
+    guessedflag: 0,
 };
 
 function resetGame() {
