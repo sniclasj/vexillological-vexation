@@ -86,15 +86,15 @@ describe("startGame works correctly", () => {
         game.questnum = 0;
         game.correct = 0;
         game.incorrect = 0;
-        game.country = "???";
-        game.flag1 = "flag-id-0";
-        game.flag2 = "flag-id-0";
+        game.country = 0;
+        game.flag1 = 0;
+        game.flag2 = 0;
         document.getElementById("question-num").innerText = "0";
         document.getElementById("correct").innerText = "0";
         document.getElementById("incorrect").innerText = "0";
-        document.getElementById("country-name").innerText = "???";
-        document.getElementById("flag-id-0");
-        document.getElementById("flag-id-0");
+        document.getElementById("country-name").innerText = "0";
+        document.getElementById("0");
+        document.getElementById("0");
         startGame();
     });
     // Code credit https://stackoverflow.com/questions/44712917/how-to-test-a-range-of-numbers-with-jest diralik
