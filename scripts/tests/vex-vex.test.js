@@ -33,11 +33,11 @@ describe("game object contains correct keys", () => {
         expect("country" in game).toBe(true);
     });
 
-    
+
     test("question number key exists", () => {
         expect("questnum" in game).toBe(true);
     });
-    test("Guessed flag key exists", () => {
+    test("guessed flag key exists", () => {
         expect("guessedflag" in game).toBe(true);
     });
 });
