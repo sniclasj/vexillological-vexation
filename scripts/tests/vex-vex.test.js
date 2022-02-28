@@ -142,7 +142,7 @@ describe("player guess works correctly", () => {
     test("should increment question number by 1", () => {
         expect(game.questnum).toEqual(6);
     });
-    test("should increment correct by 1 if correct guess", () => {
-        expect(game.correct).toEqual(5);
+    test("should add guessed flag id number to guessedFlag array", () => {
+        expect(game.guessedflag).toBe(43);
     });
 });
