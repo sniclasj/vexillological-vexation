@@ -39,6 +39,7 @@ function startGame() {
 
 function playerGuess() {
     game.questnum++;
+    game.guessedflag = 43;
 }
 
 module.exports = {
