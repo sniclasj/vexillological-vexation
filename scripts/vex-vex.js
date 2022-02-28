@@ -8,6 +8,7 @@ let game = {
 };
 
 function newGame() {
+    game.questnum = 0;
     game.correct = 0;
     game.incorrect = 0;
     game.country = "???";
