@@ -138,7 +138,7 @@ describe("player guess works correctly", () => {
         document.getElementById("flag-id-2");
         playerGuess();
     });
-    test("should set game correct to zero", () => {
+    test("should increment question number by 1", () => {
         expect(game.questnum).toEqual(6);
     });
 });
