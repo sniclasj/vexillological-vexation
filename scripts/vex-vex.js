@@ -37,8 +37,13 @@ function startGame() {
     };
 };
 
+function playerGuess() {
+    game.questnum = 6;
+}
+
 module.exports = {
     game,
     resetGame,
-    startGame
+    startGame,
+    playerGuess,
 };
