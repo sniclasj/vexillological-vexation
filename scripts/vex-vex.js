@@ -39,7 +39,6 @@ function startGame() {
 
 function playerGuess() {
     game.questnum++;
-    game.correct = 5;
 }
 
 module.exports = {
