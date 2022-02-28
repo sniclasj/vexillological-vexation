@@ -136,24 +136,9 @@ describe("player guess works correctly", () => {
         document.getElementById("country-name").innerText = "New Zealand";
         document.getElementById("flag-id-1");
         document.getElementById("flag-id-2");
-        resetGame();
+        playerGuess();
     });
     test("should set game correct to zero", () => {
-        expect(game.correct).toEqual(0);
-    });
-    test("should set game incorrect to zero", () => {
-        expect(game.incorrect).toEqual(0);
-    });
-    test("should set game country to ???", () => {
-        expect(game.country).toEqual("???");
-    });
-    test("should set game flag1 to base flag", () => {
-        expect(game.flag1).toEqual("flag-id-0");
-    });
-    test("should set game flag2 to base flag", () => {
-        expect(game.flag2).toEqual("flag-id-0");
-    });
-    test("should reset questnum to 0", () => {
-        expect(game.questnum).toEqual(0);
+        expect(game.questnum).toEqual(6);
     });
 });
