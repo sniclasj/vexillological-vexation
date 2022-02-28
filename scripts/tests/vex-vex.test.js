@@ -128,15 +128,15 @@ describe("player guess works correctly", () => {
         game.questnum = 5;
         game.correct = 4;
         game.incorrect = 1;
-        game.country = "New Zealand";
-        game.flag1 = "flag-id-1";
-        game.flag2 = "flag-id-2";
+        game.country = 43;
+        game.flag1 = 43;
+        game.flag2 = 25;
         document.getElementById("question-num").innerText = "5";
         document.getElementById("correct").innerText = "4";
         document.getElementById("incorrect").innerText = "1";
-        document.getElementById("country-name").innerText = "New Zealand";
-        document.getElementById("flag-id-1");
-        document.getElementById("flag-id-2");
+        document.getElementById("country-name").innerText = "43";
+        document.getElementById("43");
+        document.getElementById("25");
         playerGuess();
     });
     test("should increment question number by 1", () => {
@@ -144,5 +144,8 @@ describe("player guess works correctly", () => {
     });
     test("should add guessed flag id number to guessedFlag array", () => {
         expect(game.guessedflag).toBe(43);
+    });
+    test("should comare guessed flag id to country id", () => {
+        expect(game.guessedflag).toEqual(game.country);
     });
 });
