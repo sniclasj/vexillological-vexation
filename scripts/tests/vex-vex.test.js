@@ -5,7 +5,8 @@
 const {
     game,
     resetGame,
-    startGame
+    startGame,
+    playerGuess
 } = require("../vex-vex");
 
 beforeAll(() => {
