@@ -56,7 +56,7 @@ describe("resetGame works correctly", () => {
         document.getElementById("country-name").innerText = "New Zealand";
         document.getElementById("flag-id-1");
         document.getElementById("flag-id-2");
-        newGame();
+        resetGame();
     });
     test("should set game correct to zero", () => {
         expect(game.correct).toEqual(0);
