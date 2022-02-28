@@ -151,4 +151,7 @@ describe("player guess works correctly", () => {
     test("should increment correct by 1 if guessed id equals country id", () => {
         expect(game.correct).toBe(5);
     });
+    test("should increment incorrect by 1 if guessed id does not equal country id", () => {
+        expect(game.incorrect).toBe(2);
+    });
 });
