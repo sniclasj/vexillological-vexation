@@ -4,7 +4,7 @@
 
 const {
     game,
-    newGame,
+    resetGame,
     startGame
 } = require("../vex-vex");
 
@@ -43,7 +43,7 @@ describe("game object contains correct keys", () => {
 });
 
 // What happens when the New Game button is clicked
-describe("newGame works correctly", () => {
+describe("resetGame works correctly", () => {
     beforeAll(() => {
         game.questnum = 5;
         game.correct = 15;
@@ -112,37 +112,5 @@ describe("startGame works correctly", () => {
     });
     test("random number for flag1 cannot be the same as random number for flag2", () => {
         expect(game.flag1).not.toBe(game.flag2);
-    });
-});
-
-// The gameplay logic
-describe("check gameplay works correctly", () => {
-    beforeAll(() => {
-        game.correct = 15;
-        game.incorrect = 3;
-        game.country = "New Zealand";
-        game.flag1 = "flag-id-1";
-        game.flag2 = "flag-id-2";
-        document.getElementById("correct").innerText = "15";
-        document.getElementById("incorrect").innerText = "3";
-        document.getElementById("country-name").innerText = "New Zealand";
-        document.getElementById("flag-id-1");
-        document.getElementById("flag-id-2");
-        newGame();
-    });
-    test("should set game correct to zero", () => {
-        expect(game.correct).toEqual(0);
-    });
-    test("should set game incorrect to zero", () => {
-        expect(game.incorrect).toEqual(0);
-    });
-    test("should set game country to ???", () => {
-        expect(game.country).toEqual("???");
-    });
-    test("should set game flag1 to base flag", () => {
-        expect(game.flag1).toEqual("flag-id-0");
-    });
-    test("should set game flag2 to base flag", () => {
-        expect(game.flag2).toEqual("flag-id-0");
     });
 });
