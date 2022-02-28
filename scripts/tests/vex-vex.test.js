@@ -40,6 +40,7 @@ describe("game object contains correct keys", () => {
 // What happens when the New Game button is clicked
 describe("newGame works correctly", () => {
     beforeAll(() => {
+        game.questnum = 5;
         game.correct = 15;
         game.incorrect = 3;
         game.country = "New Zealand";
@@ -66,6 +67,9 @@ describe("newGame works correctly", () => {
     });
     test("should set game flag2 to base flag", () => {
         expect(game.flag2).toEqual("flag-id-0");
+    });
+    test("should reset questnum to 0", () => {
+        expect(game.questnum).toEqual(0);
     });
 });
 
