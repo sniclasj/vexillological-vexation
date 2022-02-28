@@ -12,9 +12,9 @@ function resetGame() {
     game.questnum = 0;
     game.correct = 0;
     game.incorrect = 0;
-    game.country = "???";
-    game.flag1 = "flag-id-0";
-    game.flag2 = "flag-id-0";
+    game.country = 0;
+    game.flag1 = 0;
+    game.flag2 = 0;
 };
 
 function startGame() {
