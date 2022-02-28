@@ -49,15 +49,15 @@ describe("resetGame works correctly", () => {
         game.questnum = 5;
         game.correct = 15;
         game.incorrect = 3;
-        game.country = "New Zealand";
-        game.flag1 = "flag-id-1";
-        game.flag2 = "flag-id-2";
-        document.getElementById("question-num").innerText = "0";
+        game.country = 43;
+        game.flag1 = 43;
+        game.flag2 = 25;
+        document.getElementById("question-num").innerText = "5";
         document.getElementById("correct").innerText = "15";
         document.getElementById("incorrect").innerText = "3";
-        document.getElementById("country-name").innerText = "New Zealand";
-        document.getElementById("flag-id-1");
-        document.getElementById("flag-id-2");
+        document.getElementById("country-name").innerText = "43";
+        document.getElementById("43");
+        document.getElementById("25");
         resetGame();
     });
     test("should set game correct to zero", () => {
@@ -66,14 +66,14 @@ describe("resetGame works correctly", () => {
     test("should set game incorrect to zero", () => {
         expect(game.incorrect).toEqual(0);
     });
-    test("should set game country to ???", () => {
-        expect(game.country).toEqual("???");
+    test("should set game country to 0", () => {
+        expect(game.country).toEqual(0);
     });
-    test("should set game flag1 to base flag", () => {
-        expect(game.flag1).toEqual("flag-id-0");
+    test("should set game flag1 to be 0", () => {
+        expect(game.flag1).toEqual(0);
     });
-    test("should set game flag2 to base flag", () => {
-        expect(game.flag2).toEqual("flag-id-0");
+    test("should set game flag2 to be 0", () => {
+        expect(game.flag2).toEqual(0);
     });
     test("should reset questnum to 0", () => {
         expect(game.questnum).toEqual(0);
