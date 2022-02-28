@@ -35,6 +35,9 @@ describe("game object contains correct keys", () => {
     test("question number key exists", () => {
         expect("questnum" in game).toBe(true);
     });
+    test("Guessed flag key exists", () => {
+        expect("guessedflag" in game).toBe(true);
+    });
 });
 
 // What happens when the New Game button is clicked
