@@ -1,4 +1,5 @@
 let game = {
+    questnum: 0,
     correct: 0,
     incorrect: 0,
     flag1: [],
