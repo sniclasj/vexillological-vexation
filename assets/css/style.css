@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 
+body {
+    background-color: rgb(141, 134, 136) !important;
+}
+
 .game-component {
-    background-color: rgba(128, 0, 32);
+    background-color: rgb(80, 74, 75);
     color: rgba(255, 233, 0);
     font-family: 'Rakkas', cursive;
 }
 
 button {
-    background-color: rgba(128, 0, 32);
+    background-color: rgb(80, 74, 75);
     color: rgba(255, 233, 0);
     font-family: 'Rakkas', cursive !important;
 }
 
 button:hover {
     background-color: rgba(255, 233, 0);
-    color: rgba(128, 0, 32);
+    color: rgb(80, 74, 75);
     font-family: 'Rakkas', cursive !important;
 }
 
 /* Flag images and respective ID numbers */
 
 #flag-id-0 {
-    background-color: rgba(128, 0, 32);
+    background-color: rgb(80, 74, 75);
     color: rgba(255, 233, 0);
     width: 100%;
     min-height: 300px;
