@@ -142,16 +142,4 @@ describe("player guess works correctly", () => {
     test("should increment question number by 1", () => {
         expect(game.questnum).toEqual(6);
     });
-    test("should add guessed flag id number to guessedFlag array", () => {
-        expect(game.guessedflag).toBe(43);
-    });
-    test("should comare guessed flag id to country id", () => {
-        expect(game.guessedflag).toEqual(game.country);
-    });
-    test("should increment correct by 1 if guessed id equals country id", () => {
-        expect(game.correct).toBe(5);
-    });
-    test("should increment incorrect by 1 if guessed id does not equal country id", () => {
-        expect(game.incorrect).toBe(2);
-    });
 });
