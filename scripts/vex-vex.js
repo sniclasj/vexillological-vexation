@@ -5,6 +5,7 @@ let game = {
     flag1: [],
     flag2: [],
     country: [],
+    guessedflag: [],
 };
 
 function newGame() {
