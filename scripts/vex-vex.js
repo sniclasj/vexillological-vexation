@@ -43,6 +43,7 @@ function storeFlagId() {
     game.storedflag.push(game.guessedflag);
 }
 
+// This may need to be ChannelMergerNode, unsure if correct!
 function nextQuestion() {
     game.questnum++;
     game.flag1 = Math.floor(Math.random() * 50) + 1;
