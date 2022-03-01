@@ -142,6 +142,8 @@ describe("player guess correct works correctly", () => {
     });
     test("should increment question number by 1", () => {
         expect(game.questnum).toEqual(2);
+        });
+    test("correct guess should mean guessed flag id equals country id", () => {
         expect(game.guessedflag).toEqual(game.country);
-    });
+        });
 });
