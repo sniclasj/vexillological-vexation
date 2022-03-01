@@ -140,6 +140,9 @@ describe("player guess works correctly", () => {
         document.getElementById("25");
         playerGuess();
     });
+// Some of the below tests will fail depending on the number
+// inputted into game.guessedflag within the playerGuess()
+// function in the vex-vex.js file.
     test("should increment question number by 1", () => {
         expect(game.questnum).toEqual(2);
         });
