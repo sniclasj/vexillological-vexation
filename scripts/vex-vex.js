@@ -46,10 +46,22 @@ function storeFlagId() {
 function nextQuestion() {
     game.questnum++;
     game.flag1 = Math.floor(Math.random() * 50) + 1;
-    if (game.storedflag.includes(game.flag1)){
-        game.flag1 = Math.floor(Math.random() * 50) + 1;
+    game.flag2 = Math.floor(Math.random() * 50) + 1;
+    game.country = [game.flag1, game.flag2][Math.floor(Math.random() * 2)];
+    if (game.flag1 = game.flag2) {
+        game.flag1;
+        game.flag2 = Math.floor(Math.random() * 50) + 1;
+        game.country = [game.flag1, game.flag2][Math.floor(Math.random() * 2)];
     }
-}
+    if (game.storedflag.includes(game.country)){
+            game.flag1 = Math.floor(Math.random() * 50) + 1;
+            game.flag2 = Math.floor(Math.random() * 50) + 1;  
+    } else {
+        game.flag1;
+        game.flag2;
+        game.country;
+    }
+    };
 
 function playerGuess() {
     game.guessedflag = 43;
