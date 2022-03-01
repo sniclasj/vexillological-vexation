@@ -139,6 +139,7 @@ describe("player guess works correctly", () => {
         game.flag1 = 43;
         game.flag2 = 25;
         game.guessedflag = 0;
+        game.storedflag = [];
         document.getElementById("question-num").innerText = "1";
         document.getElementById("correct").innerText = "0";
         document.getElementById("incorrect").innerText = "0";
@@ -162,6 +163,9 @@ describe("player guess works correctly", () => {
     test("incorrect guess should increment incorrect by 1", () => {
         expect(game.incorrect).toEqual(1);
         });
+    test("correct guess should add flag id to stored flag array", () => {
+        expect(game.incorrect).toEqual(1);
+        });    
 });
 
 // Adding the correctly guessed flag id to stored flag array
