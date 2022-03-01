@@ -91,6 +91,7 @@ describe("startGame works correctly", () => {
         game.country = 0;
         game.flag1 = 0;
         game.flag2 = 0;
+        game.guessedflag = 0;
         document.getElementById("question-num").innerText = "0";
         document.getElementById("correct").innerText = "0";
         document.getElementById("incorrect").innerText = "0";
