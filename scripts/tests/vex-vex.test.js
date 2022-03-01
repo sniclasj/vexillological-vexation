@@ -146,4 +146,7 @@ describe("player guess correct works correctly", () => {
     test("correct guess should mean guessed flag id equals country id", () => {
         expect(game.guessedflag).toEqual(game.country);
         });
+    test("correct guess should increment correct by 1", () => {
+        expect(game.correct).toEqual(1);
+        });
 });
