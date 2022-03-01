@@ -43,8 +43,11 @@ function storeFlagId() {
     game.storedflag.push(game.guessedflag);
 }
 
+function nextQuestion() {
+    game.questnum++;
+}
+
 function playerGuess() {
-    // game.questnum++;
     game.guessedflag = 43;
     if (game.country === game.guessedflag) {
         game.correct++;
@@ -59,5 +62,6 @@ module.exports = {
     resetGame,
     startGame,
     storeFlagId,
+    nextQuestion,
     playerGuess,
 };
