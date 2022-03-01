@@ -40,6 +40,9 @@ function startGame() {
 function playerGuess() {
     game.questnum++;
     game.guessedflag = 43;
+    if (game.country === game.guessedflag) {
+        game.correct++;
+    }
 }
 
 module.exports = {
