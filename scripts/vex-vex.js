@@ -38,7 +38,7 @@ function startGame() {
 };
 
 function playerGuess() {
-    game.questnum++;
+    // game.questnum++;
     game.guessedflag = 42;
     if (game.country === game.guessedflag) {
         game.correct++;
