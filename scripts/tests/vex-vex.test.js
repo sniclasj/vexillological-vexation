@@ -163,3 +163,26 @@ describe("player guess works correctly", () => {
         });
 });
 
+// Adding the correctly guessed flag id to stored flag array
+describe("player guess works correctly", () => {
+    beforeAll(() => {
+        game.questnum = 1;
+        game.correct = 1;
+        game.incorrect = 0;
+        game.country = 43;
+        game.flag1 = 43;
+        game.flag2 = 25;
+        game.guessedflag = 43;
+        game.storedflag = [];
+        document.getElementById("question-num").innerText = "1";
+        document.getElementById("correct").innerText = "0";
+        document.getElementById("incorrect").innerText = "0";
+        document.getElementById("country-name").innerText = "43";
+        document.getElementById("flag-id-43");
+        document.getElementById("flag-id-25");
+        storeFlagId();
+    });
+    test("correct guess should add correctly guessed flag ID to storedflag array", () => {
+        expect(game.storedflag).toEqual([43]);    
+    });
+});
