@@ -191,3 +191,27 @@ describe("store flag ID works correctly", () => {
         expect(game.storedflag).toEqual([43]);
     });
 });
+
+// Progressing to next question after player has guessed
+describe("store flag ID works correctly", () => {
+    beforeAll(() => {
+        game.questnum = 1;
+        game.correct = 1;
+        game.incorrect = 0;
+        game.country = 43;
+        game.flag1 = 43;
+        game.flag2 = 25;
+        game.guessedflag = 43;
+        game.storedflag = [43];
+        document.getElementById("question-num").innerText = "1";
+        document.getElementById("correct").innerText = "0";
+        document.getElementById("incorrect").innerText = "0";
+        document.getElementById("country-name").innerText = "43";
+        document.getElementById("flag-id-43");
+        document.getElementById("flag-id-25");
+        nextQuestion();
+    });
+    test("question number should increase by 1", () => {
+        expect(game.questnum).toEqual(2);
+    });
+});
