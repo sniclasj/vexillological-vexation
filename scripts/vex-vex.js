@@ -63,9 +63,10 @@ function nextQuestion() {
         game.country;
     }
     };
-
+// Amended function so guessedflag = flag1 or flag2
+// to test functionality in console
 function playerGuess() {
-    game.guessedflag = 43;
+    game.guessedflag = game.flag1 || game.flag2;
     if (game.country === game.guessedflag) {
         game.correct++;
         storeFlagId();
