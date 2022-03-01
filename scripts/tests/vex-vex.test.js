@@ -39,6 +39,9 @@ describe("game object contains correct keys", () => {
     test("guessed flag key exists", () => {
         expect("guessedflag" in game).toBe(true);
     });
+    test("stored flag", () => {
+        expect("storedflag" in game).toBe(true);
+    });
 });
 
 // What happens when the Reset button is clicked
@@ -159,3 +162,4 @@ describe("player guess works correctly", () => {
         expect(game.incorrect).toEqual(1);
         });
 });
+
