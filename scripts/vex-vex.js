@@ -45,6 +45,10 @@ function storeFlagId() {
 
 function nextQuestion() {
     game.questnum++;
+    game.flag1 = Math.floor(Math.random() * 50) + 1;
+    if (game.storedflag.includes(game.flag1)){
+        game.flag1 = Math.floor(Math.random() * 50) + 1;
+    }
 }
 
 function playerGuess() {
