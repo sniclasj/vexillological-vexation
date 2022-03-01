@@ -220,4 +220,9 @@ describe("next question works correctly", () => {
         expect(game.flag1).toBeLessThanOrEqual(50);
         expect(game.flag1).not.toEqual(43);
     });
+    test("new flag 2 id between 1 and 50 should be generated but should not equal id in stored flag", () => {
+        expect(game.flag2).toBeGreaterThanOrEqual(1);
+        expect(game.flag2).toBeLessThanOrEqual(50);
+        expect(game.flag2).not.toEqual(43);
+    });
 });
