@@ -39,6 +39,10 @@ function startGame() {
     };
 };
 
+function storeFlagId() {
+    game.storedflag.push(game.guessedflag);
+}
+
 function playerGuess() {
     // game.questnum++;
     game.guessedflag = 42;
@@ -53,5 +57,6 @@ module.exports = {
     game,
     resetGame,
     startGame,
+    storeFlagId,
     playerGuess,
 };
