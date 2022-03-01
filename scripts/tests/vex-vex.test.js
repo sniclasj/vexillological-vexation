@@ -194,7 +194,7 @@ describe("store flag ID works correctly", () => {
 });
 
 // Progressing to next question after player has guessed
-describe("store flag ID works correctly", () => {
+describe("next question works correctly", () => {
     beforeAll(() => {
         game.questnum = 1;
         game.correct = 1;
