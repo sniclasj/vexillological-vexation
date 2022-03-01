@@ -43,7 +43,7 @@ function storeFlagId() {
     game.storedflag.push(game.guessedflag);
 }
 
-// This may need to be ChannelMergerNode, unsure if correct!
+// This may need to be changed, unsure if correct!
 function nextQuestion() {
     game.questnum++;
     game.flag1 = Math.floor(Math.random() * 50) + 1;
@@ -72,6 +72,7 @@ function playerGuess() {
     } else if (game.country != game.guessedflag) {
         game.incorrect++;
     }
+    nextQuestion()
 }
 
 module.exports = {
