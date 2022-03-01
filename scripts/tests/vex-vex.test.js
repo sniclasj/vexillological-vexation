@@ -123,23 +123,24 @@ describe("startGame works correctly", () => {
 });
 
 // What happens when a flag image is clicked
-describe("player guess works correctly", () => {
+describe("player guess correct works correctly", () => {
     beforeAll(() => {
-        game.questnum = 5;
-        game.correct = 4;
-        game.incorrect = 1;
+        game.questnum = 1;
+        game.correct = 0;
+        game.incorrect = 0;
         game.country = 43;
         game.flag1 = 43;
         game.flag2 = 25;
-        document.getElementById("question-num").innerText = "5";
-        document.getElementById("correct").innerText = "4";
-        document.getElementById("incorrect").innerText = "1";
+        game.guessedflag = 0;
+        document.getElementById("question-num").innerText = "1";
+        document.getElementById("correct").innerText = "0";
+        document.getElementById("incorrect").innerText = "0";
         document.getElementById("country-name").innerText = "43";
         document.getElementById("43");
         document.getElementById("25");
         playerGuess();
     });
     test("should increment question number by 1", () => {
-        expect(game.questnum).toEqual(6);
+        expect(game.questnum).toEqual(1);
     });
 });
