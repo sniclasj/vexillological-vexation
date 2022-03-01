@@ -45,9 +45,10 @@ function storeFlagId() {
 
 function playerGuess() {
     // game.questnum++;
-    game.guessedflag = 42;
+    game.guessedflag = 43;
     if (game.country === game.guessedflag) {
         game.correct++;
+        storeFlagId();
     } else if (game.country != game.guessedflag) {
         game.incorrect++;
     }
