@@ -15,6 +15,7 @@ function resetGame() {
     game.country = 0;
     game.flag1 = 0;
     game.flag2 = 0;
+    game.guessedflag = 0;
 };
 
 function startGame() {
