@@ -33,8 +33,6 @@ describe("game object contains correct keys", () => {
     test("country name key exists", () => {
         expect("country" in game).toBe(true);
     });
-
-
     test("question number key exists", () => {
         expect("questnum" in game).toBe(true);
     });
@@ -52,6 +50,7 @@ describe("resetGame works correctly", () => {
         game.country = 43;
         game.flag1 = 43;
         game.flag2 = 25;
+        guessedflag = 43;
         document.getElementById("question-num").innerText = "5";
         document.getElementById("correct").innerText = "15";
         document.getElementById("incorrect").innerText = "3";
@@ -77,6 +76,9 @@ describe("resetGame works correctly", () => {
     });
     test("should reset questnum to 0", () => {
         expect(game.questnum).toEqual(0);
+    });
+    test("should reset guessedflag to 0", () => {
+        expect(game.guessedflag).toEqual(0);
     });
 });
 
