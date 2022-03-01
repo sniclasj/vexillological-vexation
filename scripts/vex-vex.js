@@ -6,6 +6,7 @@ let game = {
     flag2: 0,
     country: 0,
     guessedflag: 0,
+    storedflag: [],
 };
 
 function resetGame() {
