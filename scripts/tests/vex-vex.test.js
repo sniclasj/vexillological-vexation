@@ -141,6 +141,6 @@ describe("player guess correct works correctly", () => {
         playerGuess();
     });
     test("should increment question number by 1", () => {
-        expect(game.questnum).toEqual(1);
+        expect(game.questnum).toEqual(2);
     });
 });
