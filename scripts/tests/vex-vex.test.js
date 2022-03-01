@@ -164,7 +164,7 @@ describe("player guess works correctly", () => {
         expect(game.incorrect).toEqual(1);
         });
     test("correct guess should add flag id to stored flag array", () => {
-        expect(game.incorrect).toEqual(1);
+        expect(game.storedflag).toEqual([43]);
         });    
 });
 
@@ -188,6 +188,6 @@ describe("store flag ID works correctly", () => {
         storeFlagId();
     });
     test("correct guess should add correctly guessed flag ID to storedflag array", () => {
-        expect(game.storedflag).toEqual([43]);    
+        expect(game.storedflag).toEqual([43]);
     });
 });
