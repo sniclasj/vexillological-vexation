@@ -123,7 +123,7 @@ describe("startGame works correctly", () => {
 });
 
 // What happens when a flag image is clicked
-describe("player guess correct works correctly", () => {
+describe("player guess works correctly", () => {
     beforeAll(() => {
         game.questnum = 1;
         game.correct = 0;
@@ -148,5 +148,8 @@ describe("player guess correct works correctly", () => {
         });
     test("correct guess should increment correct by 1", () => {
         expect(game.correct).toEqual(1);
+        });
+    test("incorrect guess should increment incorrect by 1", () => {
+        expect(game.incorrect).toEqual(1);
         });
 });
