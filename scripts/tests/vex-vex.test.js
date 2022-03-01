@@ -164,7 +164,7 @@ describe("player guess works correctly", () => {
 });
 
 // Adding the correctly guessed flag id to stored flag array
-describe("player guess works correctly", () => {
+describe("store flag ID works correctly", () => {
     beforeAll(() => {
         game.questnum = 1;
         game.correct = 1;
