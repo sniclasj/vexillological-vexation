@@ -218,6 +218,6 @@ describe("next question works correctly", () => {
     test("new flag 1 id between 1 and 50 should be generated but should not equal id in stored flag", () => {
         expect(game.flag1).toBeGreaterThanOrEqual(1);
         expect(game.flag1).toBeLessThanOrEqual(50);
-        expect(game.flag1).not.toBe(43);
+        expect(game.flag1).not.toEqual(43);
     });
 });
