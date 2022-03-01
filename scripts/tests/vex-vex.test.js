@@ -56,8 +56,8 @@ describe("resetGame works correctly", () => {
         document.getElementById("correct").innerText = "15";
         document.getElementById("incorrect").innerText = "3";
         document.getElementById("country-name").innerText = "43";
-        document.getElementById("43");
-        document.getElementById("25");
+        document.getElementById("flag-id-43");
+        document.getElementById("flag-id-25");
         resetGame();
     });
     test("should set game correct to zero", () => {
@@ -93,8 +93,8 @@ describe("startGame works correctly", () => {
         document.getElementById("correct").innerText = "0";
         document.getElementById("incorrect").innerText = "0";
         document.getElementById("country-name").innerText = "0";
-        document.getElementById("0");
-        document.getElementById("0");
+        document.getElementById("flag-id-0");
+        document.getElementById("flag-id-0");
         startGame();
     });
     // Code credit https://stackoverflow.com/questions/44712917/how-to-test-a-range-of-numbers-with-jest diralik
@@ -136,8 +136,8 @@ describe("player guess works correctly", () => {
         document.getElementById("correct").innerText = "0";
         document.getElementById("incorrect").innerText = "0";
         document.getElementById("country-name").innerText = "43";
-        document.getElementById("43");
-        document.getElementById("25");
+        document.getElementById("flag-id-43");
+        document.getElementById("flag-id-25");
         playerGuess();
     });
 // Some of the below tests will fail depending on the number
