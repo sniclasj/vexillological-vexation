@@ -7,6 +7,7 @@ const {
     resetGame,
     startGame,
     storeFlagId,
+    nextQuestion,
     playerGuess
 } = require("../vex-vex");
 
