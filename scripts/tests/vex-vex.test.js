@@ -22,6 +22,9 @@ describe("game object contains correct keys", () => {
         test("option1 key exists", () => {
         expect("option1" in game).toBe(true);
     });
+        test("option2 key exists", () => {
+        expect("option2" in game).toBe(true);
+    });
 });
 
 // Adding values to Option 1
