@@ -22,3 +22,10 @@ describe("game object contains correct keys", () => {
         expect("option1" in game).toBe(true);
     });
 });
+
+// Adding values to Option 1
+describe("add value to option1", () => {
+    test("option1 is populated with a value from database key", () => {
+        expect("option1" in game).toBe(game.database.flags[0]);
+    });
+});
