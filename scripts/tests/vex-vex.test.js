@@ -34,3 +34,8 @@ describe("optionGen function works correctly", () => {
         expect(game.database.flags).toContain(game.option1);
     });
 });
+
+// var value = game.option1;
+// var arr = game.database.flags;
+// databaseFilt = arr.filter(function(item) {
+    // return item !== value});
