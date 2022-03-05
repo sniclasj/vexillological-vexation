@@ -25,12 +25,12 @@ describe("game object contains correct keys", () => {
 });
 
 // Adding values to Option 1
-describe("optionPop function works correctly", () => {
+describe("optionGen function works correctly", () => {
     beforeAll(() => {
     game.option1 = [];
-    optionPop();
+    optionGen();
 });
-    test("option1 is populated with a random value from database key", () => {
+    test("option1 is generated with a random value from database key", () => {
         expect(game.database.flags).toContain(game.option1);
     });
 });
