@@ -27,7 +27,7 @@ describe("game object contains correct keys", () => {
 
 // Add game keys
 describe("Flag option generation works correctly", () => {
-    test("database key exists", () => {
-        expect("database" in game).toBe(true);
+    test("option1 key exists", () => {
+        expect("option1" in game).toBe(true);
     });
 });
