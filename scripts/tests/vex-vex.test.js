@@ -4,7 +4,7 @@
 
 const {
     game,
-    optionPop,
+    optionGen,
 } = require("../vex-vex");
 
 beforeAll(() => {
