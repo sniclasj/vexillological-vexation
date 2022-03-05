@@ -4,11 +4,6 @@
 
 const {
     game,
-    resetGame,
-    startGame,
-    storeFlagId,
-    nextQuestion,
-    playerGuess
 } = require("../vex-vex");
 
 beforeAll(() => {
@@ -28,6 +23,9 @@ describe("game object contains correct keys", () => {
 // Add game keys
 describe("Flag option generation works correctly", () => {
     test("option1 key exists", () => {
+        expect("option1" in game).toBe(true);
+    });
+        test("option1 key exists", () => {
         expect("option1" in game).toBe(true);
     });
 });
