@@ -20,7 +20,7 @@ beforeAll(() => {
 });
 // Add game keys
 describe("game object contains correct keys", () => {
-    test("correct key exists", () => {
-        expect("correct" in game).toBe(true);
+    test("flags key exists", () => {
+        expect("flags" in game).toBe(true);
     });
 });
