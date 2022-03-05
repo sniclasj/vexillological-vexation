@@ -6,11 +6,11 @@ let game = {
     option1:[],
     };
 
-function optionPop () {
+function optionGen () {
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
 };
 
 module.exports = {
     game,
-    optionPop,
+    optionGen,
 };
