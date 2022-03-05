@@ -4,6 +4,7 @@ let game = {
         countries:["Argentina","Austria","Belgium","Bolivia","Brazil","Canada","Cape Verde","Chile","Croatia","Czech Republic","Denmark","East Timor","Ecuador","Egypt","Estonia","Ethiopia","France","Germany","Ghana","Greenland","Honduras","Iceland","Ireland","Isle of Man","Italy","Ivory Coast","Japan","Kenya","Kiribati","Madagascar","Malawi","Malta","Nauru","New Zealand","Nigeria","Northern Ireland","Norway","Panama","Samoa","Scotland","Senegal","Seychelles","South Africa","Spain","Sweden","Ukraine","Uruguay","USA","Vietnam","Wales"],
     },
     option1:[],
+    option2:[],
     };
 
 function optionGen () {
