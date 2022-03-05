@@ -31,6 +31,7 @@ describe("game object contains correct keys", () => {
 describe("optionGen function works correctly", () => {
     beforeAll(() => {
     game.option1 = [];
+    game.option2 = [];
     optionGen();
 });
     test("option1 is generated with a random value from database key", () => {
