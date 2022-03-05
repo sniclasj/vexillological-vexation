@@ -9,6 +9,7 @@ let game = {
 
 function optionGen () {
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
+    game.option2 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
 };
 
 module.exports = {
