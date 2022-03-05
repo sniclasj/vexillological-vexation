@@ -6,6 +6,11 @@ let game = {
     option1:[],
     };
 
+function optionPop () {
+    // option1.push(database.flags[Math.floor(Math.random() * database.flags.length)]);
+};
+
 module.exports = {
     game,
+    optionPop,
 };
