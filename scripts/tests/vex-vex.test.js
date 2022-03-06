@@ -42,7 +42,8 @@ describe("optionGen function works correctly", () => {
         expect(game.database.flags).toContain(game.option2);
     });
     //Possible that option1 can be the same as option2
-    //so test is to ensure this is never the case.
+    //Test can provide false passes due to random value generation
+    // Code in js file will ensure flase passes do not occur
         test("random vaue for option1 != random value for option2", () => {
         expect(game.option1).not.toBe(game.option2);
     });
