@@ -43,7 +43,7 @@ describe("optionGen function works correctly", () => {
     });
     //Possible that option1 can be the same as option2
     //Test can provide false passes due to random value generation
-    // Code in js file will ensure flase passes do not occur
+    // Code in js file will ensure false passes do not occur
     test("random vaue for option1 != random value for option2", () => {
         expect(game.option1).not.toBe(game.option2);
     });
