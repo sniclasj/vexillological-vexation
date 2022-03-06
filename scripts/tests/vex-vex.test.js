@@ -30,8 +30,10 @@ describe("game object contains correct keys", () => {
     });
 });
 
-// Test for generating values for game.option1 and 
-// game.option2 from the game.database.flags array
+// Test for generating game.option1 and game.option2
+// values from the game.database.flags array.
+// Test for game.question to be either the value
+// of game.option1 or game.option2
 describe("optionGen function works correctly", () => {
     beforeAll(() => {
         game.option1 = [];
@@ -49,5 +51,8 @@ describe("optionGen function works correctly", () => {
     // Code in js file will ensure false passes do not occur
     test("random vaue for option1 != random value for option2", () => {
         expect(game.option1).not.toBe(game.option2);
+    });
+    test("question is value is either option1 or option2", () => {
+    expect(game.option1 || game.option2).toBe(game.question);
     });
 });
