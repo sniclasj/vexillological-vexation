@@ -14,7 +14,7 @@ beforeAll(() => {
     document.write(fileContents);
     document.close();
 });
-// Add game keys
+// Test for existence of game keys
 describe("game object contains correct keys", () => {
     test("database key exists", () => {
         expect("database" in game).toBe(true);
@@ -27,7 +27,8 @@ describe("game object contains correct keys", () => {
     });
 });
 
-// Adding values to Option 1
+// Test for generating values for game.option1 and 
+// game.option2 from the game.database.flags array
 describe("optionGen function works correctly", () => {
     beforeAll(() => {
     game.option1 = [];
