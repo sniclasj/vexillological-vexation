@@ -25,6 +25,9 @@ describe("game object contains correct keys", () => {
     test("option2 key exists", () => {
         expect("option2" in game).toBe(true);
     });
+    test("question key exists", () => {
+    expect("question" in game).toBe(true);
+    });
 });
 
 // Test for generating values for game.option1 and 
