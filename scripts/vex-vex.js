@@ -1,3 +1,4 @@
+// Define keys for the game
 let game = {
     database: {
         flags: ["arg", "aut", "bel", "bol", "bra", "can", "cpv", "chl", "hrv", "cze", "dnk", "etr", "ecu", "egy", "est", "eth", "fra", "deu", "gha", "grl", "hnd", "isl", "irl", "imn", "ita", "civ", "jpn", "ken", "kir", "mdg", "mwi", "mlt", "nru", "nzl", "nga", "nir", "nor", "pan", "wsm", "sco", "sen", "syc", "zaf", "esp", "swe", "ukr", "ury", "usa", "vnm", "wal"],
@@ -7,6 +8,8 @@ let game = {
     option2:[],
     };
 
+// Function to randomly generate values for game.option1 and 
+// game.option2 from the game.database.flags array
 function optionGen () {
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
     game.option2 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
