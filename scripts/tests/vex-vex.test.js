@@ -48,8 +48,3 @@ describe("optionGen function works correctly", () => {
         expect(game.option1).not.toBe(game.option2);
     });
 });
-
-// var value = game.option1;
-// var arr = game.database.flags;
-// databaseFilt = arr.filter(function(item) {
-    // return item !== value});
