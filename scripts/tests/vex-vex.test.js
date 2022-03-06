@@ -41,6 +41,11 @@ describe("optionGen function works correctly", () => {
         test("option2 is generated with a random value from database key", () => {
         expect(game.database.flags).toContain(game.option2);
     });
+    //Possible that option1 can be the same as option2
+    //so test is to ensure this is never the case.
+        test("random vaue for option1 != random value for option2", () => {
+        expect(game.option1).not.toBe(game.option2);
+    });
 });
 
 // var value = game.option1;
