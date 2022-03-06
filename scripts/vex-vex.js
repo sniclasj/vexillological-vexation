@@ -12,7 +12,18 @@ let game = {
 // game.option2 from the game.database.flags array
 function optionGen () {
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
-    game.option2 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
+//Filters game.option1 value out of game.database.flags array
+//and selects game.option2 value from filtered array. This
+//ensures that game.option1 != game.option2
+//Credit: https://www.w3schools.com/jsref/jsref_filter.asp
+//Credit: https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array
+    var value = game.option1;
+    var arr = game.database.flags;
+    databaseFilt = arr.filter(function(item) {
+    return item !== value});
+//Generates game.option2 value from the filtered dabase which does
+//not contain the generated game.option1 value
+    game.option2 = (databaseFilt[Math.floor(Math.random() * databaseFilt.length)]);
 };
 
 module.exports = {
