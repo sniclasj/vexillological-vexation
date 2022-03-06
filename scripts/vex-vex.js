@@ -26,6 +26,8 @@ function optionGen() {
     //Generates game.option2 value from the filtered dabase which does
     //not contain the generated game.option1 value
     game.option2 = (databaseFilt[Math.floor(Math.random() * databaseFilt.length)]);
+    //Generates question value which is either game.option1 or game.option2
+    game.question = [game.option1, game.option2][Math.round(Math.random())];
 };
 
 module.exports = {
