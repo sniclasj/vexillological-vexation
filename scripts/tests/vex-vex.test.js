@@ -56,3 +56,17 @@ describe("optionGen function works correctly", () => {
     expect(game.option1 || game.option2).toBe(game.question);
     });
 });
+
+// Tests for generating background image associated
+// with value generated in game.option1 and game.option2.
+// Additionally, test for generating a country name in
+// game.question
+describe("changeIds function works correctly", () => {
+        beforeAll(() => {
+        optionGen();
+        changeIds();
+        });
+    test("game.option1 value replaces option1 id in HTML", () => {
+        expect(document.getElementById("option1")).toBe(game.option1);
+    });
+});
