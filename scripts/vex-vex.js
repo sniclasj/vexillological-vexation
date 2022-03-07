@@ -31,9 +31,10 @@ function optionGen() {
 };
 
 function changeIds() {
+// Credit: https://www.w3schools.com/jsref/prop_html_id.asp
     document.getElementById("option1").id = game.option1;
     document.getElementById("option2").id = game.option2;
-    
+// Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
     var indexQ = game.database.flags.indexOf(game.question);
     document.getElementById("question").innerHTML = game.database.countries[indexQ];
 };
