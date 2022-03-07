@@ -55,6 +55,7 @@ describe("optionGen function works correctly", () => {
     });
     // Check if this test is appropriate. It has resolved
     // occasional failed test issue before the test rewrite
+    // Credit: https://stackoverflow.com/questions/51519041/jest-matcher-to-match-any-one-of-three-values jordrake
     test("question value is either option1 or option2", () => {
     expect(
         game.option1 === game.question ||
