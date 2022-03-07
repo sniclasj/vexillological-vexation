@@ -53,8 +53,8 @@ describe("optionGen function works correctly", () => {
     test("random vaue for option1 != random value for option2", () => {
         expect(game.option1).not.toBe(game.option2);
     });
-    test("question is value is either option1 or option2", () => {
-    expect(game.option1 || game.option2).toBe(game.question);
+    test("question value is either option1 or option2", () => {
+    expect(game.question).toBe(game.option1 || game.option2);
     });
 });
 
