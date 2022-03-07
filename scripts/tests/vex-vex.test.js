@@ -5,6 +5,7 @@
 const {
     game,
     optionGen,
+    changeIds,
 } = require("../vex-vex");
 
 beforeAll(() => {
