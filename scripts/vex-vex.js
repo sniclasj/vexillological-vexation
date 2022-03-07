@@ -37,6 +37,7 @@ function changeIds() {
 
 function revertIds() {
     document.getElementById(game.option1).id = "option1";
+    document.getElementById(game.option2).id = "option2";
 }
 
 module.exports = {
