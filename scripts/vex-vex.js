@@ -31,7 +31,7 @@ function optionGen() {
 };
 
 function changeIds() {
-
+    document.getElementById("option1").id = game.option1;
 };
 
 module.exports = {
