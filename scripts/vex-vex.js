@@ -30,7 +30,12 @@ function optionGen() {
     game.question = [game.option1, game.option2][Math.round(Math.random())];
 };
 
+function changeIds() {
+
+};
+
 module.exports = {
     game,
     optionGen,
+    changeIds,
 };
