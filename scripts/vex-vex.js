@@ -32,6 +32,7 @@ function optionGen() {
 
 function changeIds() {
     document.getElementById("option1").id = game.option1;
+    document.getElementById("option2").id = game.option2;
 };
 
 module.exports = {
