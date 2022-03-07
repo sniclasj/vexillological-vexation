@@ -94,6 +94,9 @@ describe("revertIds function works correctly", () => {
 // Tests always fails but work perfectly in console so must
 // be an issue with the test as opposed to the code?
     test("game.option1 id value is reverted back to option1 id in HTML", () => {
-        expect(document.getElementById(game.option1)).toBe("option1");
+    expect(document.getElementById(game.option1)).toBe("option1");
+    });
+    test("game.option1 id value is reverted back to option1 id in HTML", () => {
+    expect(document.getElementById(game.option2)).toBe("option2");
     });
 });
