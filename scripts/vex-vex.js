@@ -33,14 +33,14 @@ function optionGen() {
 function changeIds() {
     document.getElementById("option1").id = game.option1;
     document.getElementById("option2").id = game.option2;
+    
+    var indexQ = game.database.flags.indexOf(game.question);
+    document.getElementById("question").innerHTML = game.database.countries[indexQ];
 };
 
 function revertIds() {
     document.getElementById(game.option1).id = "option1";
     document.getElementById(game.option2).id = "option2";
-    
-    var indexQ = game.database.flags.indexOf(game.question);
-    document.getElementById("question").innerHTML = game.database.countries[indexQ];
 }
 
 module.exports = {
