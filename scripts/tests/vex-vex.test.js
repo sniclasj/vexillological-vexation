@@ -69,7 +69,12 @@ describe("changeIds function works correctly", () => {
         optionGen();
         changeIds();
         });
+// Tests always fails but work perfectly in console so must
+// be an issue with the test as opposed to the code?
     test("game.option1 value replaces option1 id in HTML", () => {
         expect(document.getElementById("option1")).toBe(game.option1);
+    });
+        test("game.option2 value replaces option2 id in HTML", () => {
+        expect(document.getElementById("option2")).toBe(game.option2);
     });
 });
