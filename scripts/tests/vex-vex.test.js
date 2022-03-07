@@ -80,6 +80,10 @@ describe("changeIds function works correctly", () => {
         test("game.option2 value replaces option2 id in HTML", () => {
         expect(document.getElementById("option2")).toBe(game.option2);
     });
+        test("game.question value replaces question id in HTML", () => {
+        expect(document.getElementById("question")).toBe(game.question);
+    });
+    // document.getElementById("question").innerHTML = game.database.countries[indexQ];};
 });
 
 // Tests for reverting section with HTML id of 
