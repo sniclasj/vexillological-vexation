@@ -102,7 +102,4 @@ describe("revertIds function works correctly", () => {
     test("game.option1 id value is reverted back to option1 id in HTML", () => {
     expect(document.getElementById(game.option2)).toBe("option2");
     });
-    test("game.question id value is reverted back to question id in HTML", () => {
-    expect(document.getElementById(game.question)).toBe("question");
-    });
 });
