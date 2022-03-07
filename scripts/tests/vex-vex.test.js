@@ -63,10 +63,10 @@ describe("optionGen function works correctly", () => {
     });
 });
 
-// Tests for generating background image associated
-// with value generated in game.option1 and game.option2.
-// Additionally, test for generating a country name in
-// game.question
+// Tests for applying game.option1 value to HTML
+// section with id option1, game.option2 value to
+// HTML section with id option 2 and for generating
+// a country name in game.question
 describe("changeIds function works correctly", () => {
         beforeAll(() => {
         optionGen();
@@ -79,5 +79,21 @@ describe("changeIds function works correctly", () => {
     });
         test("game.option2 value replaces option2 id in HTML", () => {
         expect(document.getElementById("option2")).toBe(game.option2);
+    });
+});
+
+// Tests for reverting section with HTML id of 
+// game.option1 value back to "option1", section
+// with HTML id of game.option2 value back to "option2"
+describe("revertIds function works correctly", () => {
+        beforeAll(() => {
+        optionGen();
+        changeIds();
+        revertIds();
+        });
+// Tests always fails but work perfectly in console so must
+// be an issue with the test as opposed to the code?
+    test("game.option1 id value is reverted back to option1 id in HTML", () => {
+        expect(document.getElementById(game.option1)).toBe("option1");
     });
 });
