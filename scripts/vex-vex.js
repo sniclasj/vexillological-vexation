@@ -58,7 +58,8 @@ function resetGuess(){
 
 function checkAnswer() {
     if (game.playerguess == game.question) {
-    game.usedflags.push(game.question)};
+    game.usedflags.push(game.question)
+    game.correctscore++};
     resetGuess();
     revertIds();
     optionGen();
