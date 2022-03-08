@@ -129,3 +129,14 @@ describe("playerGuess function works correctly", () => {
             game.option2 === game.playerguess).toBe(true);
     });
 });
+
+// Test for if resetGuess function works correctly
+describe("resetGuess function works correctly", () => {
+    beforeAll(() => {
+        game.playerguess = ['wal'];
+        resetGuess();
+    });
+    test("game.playerguess is reset to an empty array", () => {
+        expect(game.playerguess).toBe([]);
+    });
+});
