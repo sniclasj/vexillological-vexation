@@ -55,6 +55,11 @@ function resetGuess(){
     game.playerguess = [];
 }
 
+function checkAnswer() {
+    if (game.playerguess == game.question) {
+    game.usedflags.push(game.question)};
+};
+
 module.exports = {
     game,
     optionGen,
@@ -62,4 +67,5 @@ module.exports = {
     revertIds,
     playerGuess,
     resetGuess,
+    checkAnswer,
 };
