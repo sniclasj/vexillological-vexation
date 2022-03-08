@@ -155,6 +155,6 @@ describe("checkAnswer function works correctly", () => {
         checkAnswer();
     });
     test("game.usedflags should be populated with game.question value", () => {
-        expect(game.usedflags).toBe(['wal']);
+        expect(game.usedflags).toStrictEqual(['wal']);
     });
 });
