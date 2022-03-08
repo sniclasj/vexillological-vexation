@@ -155,9 +155,13 @@ describe("checkAnswer function works correctly", () => {
         game.playerguess = ['wal'];
         game.question = 'wal';
         game.usedflags = [];
+        game.correctscore = [];
         checkAnswer();
     });
     test("game.usedflags should be populated with game.question value", () => {
         expect(game.usedflags).toStrictEqual(['wal']);
+    });
+    test("game.correctscore should increment by 1 if player guess is correct", () => {
+        expect(game.correctscore).toBe(1);
     });
 });
