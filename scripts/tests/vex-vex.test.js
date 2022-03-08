@@ -9,6 +9,7 @@ const {
     revertIds,
     playerGuess,
     resetGuess,
+    checkAnswer,
 } = require("../vex-vex");
 
 beforeAll(() => {
@@ -146,14 +147,14 @@ describe("resetGuess function works correctly", () => {
 });
 
 // Test for if checkAnswer function works correctly
-// describe("checkAnswer function works correctly", () => {
-    // beforeAll(() => {
-        // game.playerguess = ['wal'];
-        // game.question = wal;
-        // game.usedflags = [];
-        // checkAnswer();
-    // });
-    // test("game.usedflags should be populated with game.question value", () => {
-        // expect(game.usedflags).toBe(['wal']);
-    // });
-// });
+describe("checkAnswer function works correctly", () => {
+    beforeAll(() => {
+        game.playerguess = ['wal'];
+        game.question = wal;
+        game.usedflags = [];
+        checkAnswer();
+    });
+    test("game.usedflags should be populated with game.question value", () => {
+        expect(game.usedflags).toBe(['wal']);
+    });
+});
