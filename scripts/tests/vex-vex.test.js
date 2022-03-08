@@ -107,3 +107,20 @@ describe("revertIds function works correctly", () => {
     });
 });
 
+// Test for if playerGuess function works correctly
+describe("playerGuess function works correctly", () => {
+    beforeAll(() => {
+        game.option1 = [];
+        game.option2 = [];
+        game.question = [];
+        game.playerguess = [];
+        optionGen();
+        changeIds();
+        playerGuess();
+    });
+    test("game.playerguess array is populated with flag id of flag option clicked", () => {
+        expect(
+            game.option1 === game.playerguess ||
+            game.option2 === game.playerguess).toBe(true);
+    });
+});
