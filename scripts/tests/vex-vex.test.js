@@ -39,6 +39,9 @@ describe("game object contains correct keys", () => {
     test("usedflags key exists", () => {
     expect("usedflags" in game).toBe(true);
     });
+    test("correctscore key exists", () => {
+    expect("correctscore" in game).toBe(true);
+    });
 });
 
 // Test for generating game.option1 and game.option2
