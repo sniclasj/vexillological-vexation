@@ -8,6 +8,7 @@ const {
     changeIds,
     revertIds,
     playerGuess,
+    resetGuess,
 } = require("../vex-vex");
 
 beforeAll(() => {
