@@ -150,7 +150,7 @@ describe("resetGuess function works correctly", () => {
 describe("checkAnswer function works correctly", () => {
     beforeAll(() => {
         game.playerguess = ['wal'];
-        game.question = wal;
+        game.question = 'wal';
         game.usedflags = [];
         checkAnswer();
     });
