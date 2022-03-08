@@ -58,6 +58,10 @@ function resetGuess(){
 function checkAnswer() {
     if (game.playerguess == game.question) {
     game.usedflags.push(game.question)};
+    resetGuess();
+    revertIds();
+    optionGen();
+    changeIds();
 };
 
 module.exports = {
