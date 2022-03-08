@@ -138,6 +138,6 @@ describe("resetGuess function works correctly", () => {
         resetGuess();
     });
     test("game.playerguess is reset to an empty array", () => {
-        expect(game.playerguess).toBe([]);
+        expect(game.playerguess).toStrictEqual([]);
     });
 });
