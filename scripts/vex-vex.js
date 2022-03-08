@@ -45,9 +45,15 @@ function revertIds() {
     document.getElementById(game.option2).id = "option2";
 }
 
+//Credit: Modified from https://stackoverflow.com/questions/4825295/onclick-to-get-the-id-of-the-clicked-button shamittomar
+function playerGuess(clicked_id) {
+      game.playerguess.push(clicked_id);
+  }
+
 module.exports = {
     game,
     optionGen,
     changeIds,
     revertIds,
+    playerGuess,
 };
