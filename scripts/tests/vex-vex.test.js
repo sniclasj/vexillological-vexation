@@ -29,6 +29,9 @@ describe("game object contains correct keys", () => {
     test("question key exists", () => {
     expect("question" in game).toBe(true);
     });
+    test("playerguess key exists", () => {
+    expect("playerguess" in game).toBe(true);
+    });
 });
 
 // Test for generating game.option1 and game.option2
@@ -103,3 +106,4 @@ describe("revertIds function works correctly", () => {
     expect(document.getElementById(game.option2)).toBe("option2");
     });
 });
+
