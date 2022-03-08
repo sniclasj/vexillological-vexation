@@ -35,6 +35,9 @@ describe("game object contains correct keys", () => {
     test("playerguess key exists", () => {
     expect("playerguess" in game).toBe(true);
     });
+    test("usedflags key exists", () => {
+    expect("usedflags" in game).toBe(true);
+    });
 });
 
 // Test for generating game.option1 and game.option2
@@ -141,3 +144,16 @@ describe("resetGuess function works correctly", () => {
         expect(game.playerguess).toStrictEqual([]);
     });
 });
+
+// Test for if checkAnswer function works correctly
+// describe("checkAnswer function works correctly", () => {
+    // beforeAll(() => {
+        // game.playerguess = ['wal'];
+        // game.question = wal;
+        // game.usedflags = [];
+        // checkAnswer();
+    // });
+    // test("game.usedflags should be populated with game.question value", () => {
+        // expect(game.usedflags).toBe(['wal']);
+    // });
+// });
