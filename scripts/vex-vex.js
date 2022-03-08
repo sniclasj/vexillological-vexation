@@ -50,10 +50,15 @@ function playerGuess(clicked_id) {
       game.playerguess.push(clicked_id);
   }
 
+function resetGuess(){
+    game.playerguess = [];
+}
+
 module.exports = {
     game,
     optionGen,
     changeIds,
     revertIds,
     playerGuess,
+    resetGuess,
 };
