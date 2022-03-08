@@ -7,6 +7,7 @@ let game = {
     option1: [],
     option2: [],
     question: [],
+    playerguess: [],
 };
 
 // Function to randomly generate values for game.option1 and 
