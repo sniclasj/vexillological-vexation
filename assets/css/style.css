@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 
 body {
-    background-color: rgb(141, 134, 136) !important;
+    background-color: rgb(80, 74, 75) !important;
 }
 
 .game-component {
     background-color: rgb(80, 74, 75);
+    border: 2px solid rgba(255, 233, 0);
     color: rgba(255, 233, 0);
     font-family: 'Rakkas', cursive;
 }
