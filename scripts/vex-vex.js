@@ -62,6 +62,8 @@ function checkAnswer() {
     game.usedflags.push(game.question)
     game.correctscore++
     document.getElementById("correct").innerHTML = game.correctscore;
+} else {
+    game.incorrectscore++
 };
     resetGuess();
     revertIds();
