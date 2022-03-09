@@ -18,6 +18,7 @@ let game = {
 // game.option2 from the game.database.flags array
 function optionGen() {
     game.questionnum++;
+    document.getElementById("question-num").innerHTML = game.questionnum;
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
     //Filters game.option1 value out of game.database.flags array
     //and selects game.option2 value from filtered array. This
