@@ -165,7 +165,7 @@ describe("checkAnswer function works correctly", () => {
     test("game.correctscore should increment by 1 if player guess is correct", () => {
         expect(game.correctscore).toBe(1);
     });
-    test("game.correctscore should increment by 1 if player guess is correct", () => {
+    test("correct score in html should increment by 1 if player guess is correct", () => {
         expect(document.getElementById("correct").innerHTML).toBe(game.correctscore);
     });
 });
