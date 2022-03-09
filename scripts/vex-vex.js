@@ -17,6 +17,7 @@ let game = {
 // Function to randomly generate values for game.option1 and 
 // game.option2 from the game.database.flags array
 function optionGen() {
+    game.questionnum++;
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
     //Filters game.option1 value out of game.database.flags array
     //and selects game.option2 value from filtered array. This
