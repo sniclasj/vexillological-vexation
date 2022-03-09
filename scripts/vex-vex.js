@@ -62,7 +62,7 @@ function checkAnswer() {
     game.usedflags.push(game.question)
     game.correctscore++
     document.getElementById("correct").innerHTML = game.correctscore;
-} else {
+} else if (game.playerguess != game.question) {
     game.incorrectscore++
 };
     resetGuess();
