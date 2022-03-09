@@ -84,9 +84,9 @@ describe("optionGen function works correctly", () => {
     test("game.questionnum increments by 1", () => {
         expect(game.questionnum).toBe(1);
         });
-    // test("question num html value changes to 1", () => {
-        // expect(document.getElementById("question-num").innerHTML).toBe(game.questionnum);
-        // });
+    test("question num html value increments 1", () => {
+        expect(document.getElementById("question-num").innerHTML).toBe(game.questionnum);
+        });
 });
 
 // Tests for applying game.option1 value to HTML
