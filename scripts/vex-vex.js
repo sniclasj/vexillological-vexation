@@ -43,7 +43,7 @@ function changeIds() {
     document.getElementById("option2").id = game.option2;
 // Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
     var indexQ = game.database.flags.indexOf(game.question);
-    document.getElementById("question").innerHTML = game.database.countries[indexQ];
+    document.getElementById("question").innerHTML = `Which flag belongs to...`+(game.database.countries[indexQ])+`?`;
 };
 
 function revertIds() {
