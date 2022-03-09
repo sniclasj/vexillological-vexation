@@ -64,6 +64,7 @@ function checkAnswer() {
     document.getElementById("correct").innerHTML = game.correctscore;
 } else if (game.playerguess != game.question) {
     game.incorrectscore++
+    document.getElementById("incorrect").innerHTML = game.incorrectscore;
 };
     resetGuess();
     revertIds();
