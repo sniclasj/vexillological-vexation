@@ -55,6 +55,7 @@ describe("optionGen function works correctly", () => {
     beforeAll(() => {
         game.option1 = [];
         game.option2 = [];
+        document.getElementById("question-num") = [];
         optionGen();
     });
     test("option1 is generated with a random value from database key", () => {
@@ -77,6 +78,9 @@ describe("optionGen function works correctly", () => {
         game.option1 === game.question ||
         game.option2 === game.question).toBe(true);
     });
+    test("question num html value changes to 1", () => {
+        expect(document.getElementById("question-num").innerHTML).toBe(1);
+        });
 });
 
 // Tests for applying game.option1 value to HTML
