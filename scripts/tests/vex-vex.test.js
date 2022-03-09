@@ -159,6 +159,7 @@ describe("checkAnswer function works correctly", () => {
         game.question = 'wal';
         game.usedflags = [];
         game.correctscore = [];
+        game.incorrectscore = [];
         document.getElementById("correct").innerHTML = "0";
         checkAnswer();
     });
@@ -170,5 +171,8 @@ describe("checkAnswer function works correctly", () => {
     });
     test("correct score in html should increment by 1 if player guess is correct", () => {
         expect(document.getElementById("correct").innerHTML).toBe(game.correctscore);
+    });
+    test("game.incorrectscore should increment by 1 if player guess is incorrect", () => {
+        expect(game.incorrectscore).toBe(1);
     });
 });
