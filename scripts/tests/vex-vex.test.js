@@ -81,9 +81,9 @@ describe("optionGen function works correctly", () => {
         game.option1 === game.question ||
         game.option2 === game.question).toBe(true);
     });
-    // test("question num html value changes to 1", () => {
-        // expect(game.questionnum).toBe(1);
-        // });
+    test("question num html value changes to 1", () => {
+        expect(game.questionnum).toBe(1);
+        });
     // test("question num html value changes to 1", () => {
         // expect(document.getElementById("question-num").innerHTML).toBe(game.questionnum);
         // });
