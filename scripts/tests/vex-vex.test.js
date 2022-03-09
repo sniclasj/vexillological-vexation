@@ -45,6 +45,9 @@ describe("game object contains correct keys", () => {
     test("incorrectscore key exists", () => {
     expect("incorrectscore" in game).toBe(true);
     });
+    test("questionnum key exists", () => {
+    expect("questionnum" in game).toBe(true);
+    });
 });
 
 // Test for generating game.option1 and game.option2
@@ -78,9 +81,12 @@ describe("optionGen function works correctly", () => {
         game.option1 === game.question ||
         game.option2 === game.question).toBe(true);
     });
-    test("question num html value changes to 1", () => {
-        expect(document.getElementById("question-num").innerHTML).toBe(1);
-        });
+    // test("question num html value changes to 1", () => {
+        // expect(game.questionnum).toBe(1);
+        // });
+    // test("question num html value changes to 1", () => {
+        // expect(document.getElementById("question-num").innerHTML).toBe(game.questionnum);
+        // });
 });
 
 // Tests for applying game.option1 value to HTML
