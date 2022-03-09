@@ -10,6 +10,7 @@ let game = {
     playerguess: [],
     usedflags: [],
     correctscore: [],
+    incorrectscore: [],
 };
 
 // Function to randomly generate values for game.option1 and 
