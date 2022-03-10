@@ -11,14 +11,14 @@ let game = {
     usedflags: [],
     correctscore: [],
     incorrectscore: [],
-    questionnum:[],
+    questionnum: [],
 };
 
 // Function to randomly generate values for game.option1 and 
 // game.option2 from the game.database.flags array
 function optionGen() {
     game.questionnum++;
-    document.getElementById("question-num").innerHTML =`Question Number: `+(game.questionnum);
+    document.getElementById("question-num").innerHTML = `Question Number: ` + (game.questionnum);
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
     //Filters game.option1 value out of game.database.flags array
     //and selects game.option2 value from filtered array. This
@@ -38,12 +38,12 @@ function optionGen() {
 };
 
 function changeIds() {
-// Credit: https://www.w3schools.com/jsref/prop_html_id.asp
+    // Credit: https://www.w3schools.com/jsref/prop_html_id.asp
     document.getElementById("option1").id = game.option1;
     document.getElementById("option2").id = game.option2;
-// Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
+    // Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
     var indexQ = game.database.flags.indexOf(game.question);
-    document.getElementById("question").innerHTML = `Which flag belongs to...`+(game.database.countries[indexQ])+`?`;
+    document.getElementById("question").innerHTML = `Which flag belongs to...` + (game.database.countries[indexQ]) + `?`;
 };
 
 function revertIds() {
@@ -53,22 +53,22 @@ function revertIds() {
 
 //Credit: Modified from https://stackoverflow.com/questions/4825295/onclick-to-get-the-id-of-the-clicked-button shamittomar
 function playerGuess(clicked_id) {
-      game.playerguess.push(clicked_id);
-  }
+    game.playerguess.push(clicked_id);
+}
 
-function resetGuess(){
+function resetGuess() {
     game.playerguess = [];
 }
 
 function checkAnswer() {
     if (game.playerguess == game.question) {
-    game.usedflags.push(game.question)
-    game.correctscore++
-    document.getElementById("correct").innerHTML = game.correctscore;
-} else if (game.playerguess != game.question) {
-    game.incorrectscore++
-    document.getElementById("incorrect").innerHTML = game.incorrectscore;
-};
+        game.usedflags.push(game.question)
+        game.correctscore++
+        document.getElementById("correct").innerHTML = game.correctscore;
+    } else if (game.playerguess != game.question) {
+        game.incorrectscore++
+        document.getElementById("incorrect").innerHTML = game.incorrectscore;
+    };
     resetGuess();
     revertIds();
     optionGen();
