@@ -20,8 +20,23 @@
         </section>
     </section>
 
-    <section class="col-md-12 text-center">
-        <button class="text-center" onclick="optionGen();changeIds()">Start!</button>
+    <section class="container-fluid">
+        <section class="row">
+            <section class="col-md-6 text-center">
+                <p class="game-component">Correct Answers: <span id="correct">0</span></p>
+            </section>
+            <section class="col-md-6 text-center">
+                <p class="game-component">Incorrect Answers: <span id="incorrect">0</span></p>
+            </section>
+
+            <section class="col-md-12 text-center">
+                <button class="text-center" onclick="optionGen();changeIds()">Start!</button>
+            </section>
+
+            <!-- <section class="col-md-6 text-center"> -->
+                <!-- <button class="text-center" onclick="resetGame()">Reset</button> -->
+            <!-- </section> -->
+        </section>
     </section>
 
     <section class="container-fluid">
@@ -43,21 +58,7 @@
             </section>
         </section>
     </section>
-
-    <section class="container-fluid">
-        <section class="row">
-            <section class="col-md-6 text-center">
-                <p class="game-component">Correct Answers: <span id="correct">0</span></p>
-            </section>
-            <section class="col-md-6 text-center">
-                <p class="game-component">Incorrect Answers: <span id="incorrect">0</span></p>
-            </section>
-
-            <!-- <section class="col-md-6 text-center"> -->
-                <!-- <button class="text-center" onclick="resetGame()">Reset</button> -->
-            <!-- </section> -->
-        </section>
-    </section>
+    
     <script src="scripts/vex-vex.js"></script>
 </body>
 
