@@ -31,22 +31,22 @@ describe("game object contains correct keys", () => {
         expect("option2" in game).toBe(true);
     });
     test("question key exists", () => {
-    expect("question" in game).toBe(true);
+        expect("question" in game).toBe(true);
     });
     test("playerguess key exists", () => {
-    expect("playerguess" in game).toBe(true);
+        expect("playerguess" in game).toBe(true);
     });
     test("usedflags key exists", () => {
-    expect("usedflags" in game).toBe(true);
+        expect("usedflags" in game).toBe(true);
     });
     test("correctscore key exists", () => {
-    expect("correctscore" in game).toBe(true);
+        expect("correctscore" in game).toBe(true);
     });
     test("incorrectscore key exists", () => {
-    expect("incorrectscore" in game).toBe(true);
+        expect("incorrectscore" in game).toBe(true);
     });
     test("questionnum key exists", () => {
-    expect("questionnum" in game).toBe(true);
+        expect("questionnum" in game).toBe(true);
     });
 });
 
@@ -77,16 +77,16 @@ describe("optionGen function works correctly", () => {
     // occasional failed test issue before the test rewrite
     // Credit: https://stackoverflow.com/questions/51519041/jest-matcher-to-match-any-one-of-three-values jordrake
     test("question value is either option1 or option2", () => {
-    expect(
-        game.option1 === game.question ||
-        game.option2 === game.question).toBe(true);
+        expect(
+            game.option1 === game.question ||
+            game.option2 === game.question).toBe(true);
     });
     test("game.questionnum increments by 1", () => {
         expect(game.questionnum).toBe(1);
-        });
+    });
     test("question num html value increments 1", () => {
         expect(document.getElementById("question-num").innerHTML).toBe(game.questionnum);
-        });
+    });
 });
 
 // Tests for applying game.option1 value to HTML
@@ -94,19 +94,19 @@ describe("optionGen function works correctly", () => {
 // HTML section with id option 2 and for generating
 // a country name in game.question
 describe("changeIds function works correctly", () => {
-        beforeAll(() => {
+    beforeAll(() => {
         optionGen();
         changeIds();
-        });
-// Tests always fails but work perfectly in console so must
-// be an issue with the test as opposed to the code?
+    });
+    // Tests always fails but work perfectly in console so must
+    // be an issue with the test as opposed to the code?
     test("game.option1 value replaces option1 id in HTML", () => {
         expect(document.getElementById("option1")).toBe(game.option1);
     });
-        test("game.option2 value replaces option2 id in HTML", () => {
+    test("game.option2 value replaces option2 id in HTML", () => {
         expect(document.getElementById("option2")).toBe(game.option2);
     });
-        test("game.question value replaces question id in HTML", () => {
+    test("game.question value replaces question id in HTML", () => {
         expect(document.getElementById("question").innerHTML).toBe(game.database.countries[game.database.flags.indexOf(game.question)]);
     });
 });
@@ -115,18 +115,18 @@ describe("changeIds function works correctly", () => {
 // game.option1 value back to "option1", section
 // with HTML id of game.option2 value back to "option2"
 describe("revertIds function works correctly", () => {
-        beforeAll(() => {
+    beforeAll(() => {
         optionGen();
         changeIds();
         revertIds();
-        });
-// Tests always fails but work perfectly in console so must
-// be an issue with the test as opposed to the code?
+    });
+    // Tests always fails but work perfectly in console so must
+    // be an issue with the test as opposed to the code?
     test("game.option1 id value is reverted back to option1 id in HTML", () => {
-    expect(document.getElementById(game.option1)).toBe("option1");
+        expect(document.getElementById(game.option1)).toBe("option1");
     });
     test("game.option1 id value is reverted back to option1 id in HTML", () => {
-    expect(document.getElementById(game.option2)).toBe("option2");
+        expect(document.getElementById(game.option2)).toBe("option2");
     });
 });
 
