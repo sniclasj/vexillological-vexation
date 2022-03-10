@@ -38,246 +38,295 @@ button:hover {
     width: 100%;
     min-height: 300px;
 }
+
 #aut {
     background: url(../images/austria-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #bel {
     background: url(../images/belgium-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #bol {
     background: url(../images/bolivia-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #bra {
     background: url(../images/brazil-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #can {
     background: url(../images/canada-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #cpv {
     background: url(../images/cape-verde-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #chl {
     background: url(../images/chile-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #hrv {
     background: url(../images/croatia-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #cze {
     background: url(../images/czech-rep-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #dnk {
     background: url(../images/denmark-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #etr {
     background: url(../images/east-timor-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #ecu {
     background: url(../images/ecuador-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #egy {
     background: url(../images/egypt-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #est {
     background: url(../images/estonia-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #eth {
     background: url(../images/ethiopia-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #fra {
     background: url(../images/france-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #deu {
     background: url(../images/germany-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #gha {
     background: url(../images/ghana-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #grl {
     background: url(../images/greenland-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #hnd {
     background: url(../images/honduras-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #isl {
     background: url(../images/iceland-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #irl {
     background: url(../images/ireland-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #imn {
     background: url(../images/isle-of-man-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #ita {
     background: url(../images/italy-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #civ {
     background: url(../images/ivory-coast-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #jpn {
     background: url(../images/japan-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #ken {
     background: url(../images/kenya-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #kir {
     background: url(../images/kiribati-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #mdg {
     background: url(../images/madagascar-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #mwi {
     background: url(../images/malawi-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #mlt {
     background: url(../images/malta-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #nru {
     background: url(../images/nauru-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #nzl {
     background: url(../images/new-zealand-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #nga {
     background: url(../images/nigeria-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #nir {
     background: url(../images/northern-ireland-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #nor {
     background: url(../images/norway-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #pan {
     background: url(../images/panama-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #wsm {
     background: url(../images/samoa-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #sco {
     background: url(../images/scotland-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #sen {
     background: url(../images/senegal-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #syc {
     background: url(../images/seychelles-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #zaf {
     background: url(../images/south-africa-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #esp {
     background: url(../images/spain-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #swe {
     background: url(../images/sweden-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #ukr {
     background: url(../images/ukraine-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #ury {
     background: url(../images/uruguay-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #usa {
     background: url(../images/usa-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #vnm {
     background: url(../images/vietnam-flag.png) center no-repeat;
     width: 100%;
     min-height: 300px;
 }
+
 #wal {
     background: url(../images/wales-flag.png) center no-repeat;
     width: 100%;
