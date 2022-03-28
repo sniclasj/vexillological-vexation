@@ -1,3 +1,4 @@
+/* jshint esversion: 8 */
 // Define keys for the game
 let game = {
     database: {
