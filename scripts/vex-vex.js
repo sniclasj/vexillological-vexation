@@ -61,6 +61,12 @@ function resetGuess() {
     game.playerguess = [];
 }
 
+function endGame() {
+    if (game.correctscore + game.incorrectscore == 20) {
+        location.href = 'finished.html'
+    }
+}
+
 function checkAnswer() {
     if (game.playerguess == game.question) {
         game.usedflags.push(game.question)
@@ -74,6 +80,7 @@ function checkAnswer() {
     revertIds();
     optionGen();
     changeIds();
+    endGame();
 };
 
 module.exports = {
@@ -84,4 +91,5 @@ module.exports = {
     playerGuess,
     resetGuess,
     checkAnswer,
+    endGame,
 };
