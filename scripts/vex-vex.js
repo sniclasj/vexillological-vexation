@@ -26,8 +26,8 @@ function optionGen() {
     //ensures that game.option1 != game.option2
     //Credit: https://www.w3schools.com/jsref/jsref_filter.asp
     //Credit: https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array
-    var value = game.option1;
-    var arr = game.database.flags;
+    let value = game.option1;
+    let arr = game.database.flags;
     databaseFilt = arr.filter(function (item) {
         return item !== value
     });
@@ -43,7 +43,7 @@ function changeIds() {
     document.getElementById("option1").id = game.option1;
     document.getElementById("option2").id = game.option2;
     // Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
-    var indexQ = game.database.flags.indexOf(game.question);
+    let indexQ = game.database.flags.indexOf(game.question);
     document.getElementById("question").innerHTML = `Which flag belongs to...` + (game.database.countries[indexQ]) + `?`;
 };
 
