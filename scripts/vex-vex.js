@@ -28,15 +28,15 @@ function optionGen() {
     //Credit: https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array
     let value = game.option1;
     let arr = game.database.flags;
-    databaseFilt = arr.filter(function (item) {
-        return item !== value
+    let databaseFilt = arr.filter(function (item) {
+        return item !== value;
     });
     //Generates game.option2 value from the filtered dabase which does
     //not contain the generated game.option1 value
     game.option2 = (databaseFilt[Math.floor(Math.random() * databaseFilt.length)]);
     //Generates question value which is either game.option1 or game.option2
     game.question = [game.option1, game.option2][Math.round(Math.random())];
-};
+}
 
 function changeIds() {
     // Credit: https://www.w3schools.com/jsref/prop_html_id.asp
@@ -45,7 +45,7 @@ function changeIds() {
     // Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
     let indexQ = game.database.flags.indexOf(game.question);
     document.getElementById("question").innerHTML = `Which flag belongs to...` + (game.database.countries[indexQ]) + `?`;
-};
+}
 
 function revertIds() {
     document.getElementById(game.option1).id = "option1";
@@ -63,25 +63,25 @@ function resetGuess() {
 
 function endGame() {
     if (game.correctscore + game.incorrectscore == 20) {
-        location.href = 'finished.html'
+        location.href = 'finished.html';
     }
 }
 
 function checkAnswer() {
     if (game.playerguess == game.question) {
-        game.usedflags.push(game.question)
-        game.correctscore++
+        game.usedflags.push(game.question);
+        game.correctscore++;
         document.getElementById("correct").innerHTML = game.correctscore;
     } else if (game.playerguess != game.question) {
-        game.incorrectscore++
+        game.incorrectscore++;
         document.getElementById("incorrect").innerHTML = game.incorrectscore;
-    };
+    }
     resetGuess();
     revertIds();
     optionGen();
     changeIds();
     endGame();
-};
+}
 
 module.exports = {
     game,
