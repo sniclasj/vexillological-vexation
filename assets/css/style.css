@@ -12,6 +12,21 @@ body {
     margin: 10px;
 }
 
+.landing-page-button {
+    background-color: rgb(131, 12, 32);
+    border: 2px solid rgba(255, 233, 0);
+    color: rgba(255, 233, 0);
+    font-family: 'Rakkas', cursive;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.landing-page-button:hover {
+        background-color: rgba(255, 233, 0);
+        color: rgba(131, 12, 32);
+        font-family: 'Rakkas', cursive !important;
+}
+
 .game-component {
     background-color: rgb(80, 74, 75);
     border: 2px solid rgba(255, 233, 0);
