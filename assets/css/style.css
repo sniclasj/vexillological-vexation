@@ -13,17 +13,20 @@ body {
 }
 
 .landing-page-button {
-    background-color: rgb(131, 12, 32);
+    background: url(../images/all-flags.gif) center no-repeat;
+    height: 150px;
+    width: 300px;
     border: 2px solid rgba(255, 233, 0);
-    color: rgba(255, 233, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
     font-family: 'Rakkas', cursive;
     margin: 10px;
     font-size: 50px;
 }
 
 .landing-page-button:hover {
-        background-color: rgba(255, 233, 0);
-        color: rgba(131, 12, 32);
+        color: rgb(255, 233, 0);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
         font-family: 'Rakkas', cursive !important;
 }
 
