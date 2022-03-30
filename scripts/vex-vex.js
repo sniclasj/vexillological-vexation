@@ -74,7 +74,7 @@ function checkAnswer() {
         game.database.flags.splice(indexQ,1);
         game.database.countries.splice(indexQ,1);
         console.log(game.database.flags);
-        console.log(game.database.countries);
+        console.log(game.usedflags);
         game.correctscore++;
         document.getElementById("correct").innerHTML = game.correctscore;
     } else if (game.playerguess != game.question) {
