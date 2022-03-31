@@ -21,6 +21,7 @@ function optionGen() {
     game.questionnum++;
     document.getElementById("question-num").innerHTML = `Question Number: ` + (game.questionnum);
     game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
+    
     //Filters game.option1 value out of game.database.flags array
     //and selects game.option2 value from filtered array. This
     //ensures that game.option1 != game.option2
@@ -71,6 +72,7 @@ function checkAnswer() {
     let indexQ = game.database.flags.indexOf(game.question);
     if (game.playerguess == game.question) {
         game.usedflags.push(game.question);
+// Splice code credit: https://love2dev.com/blog/javascript-remove-from-array/#remove-from-array-splice
         game.database.flags.splice(indexQ,1);
         game.database.countries.splice(indexQ,1);
         console.log(game.database.flags);
