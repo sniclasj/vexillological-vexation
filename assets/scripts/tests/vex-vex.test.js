@@ -19,7 +19,7 @@ const {
 
 beforeAll(() => {
     let fs = require("fs");
-    let fileContents = fs.readFileSync("index.html", "utf-8");
+    let fileContents = fs.readFileSync("game.html", "utf-8");
     document.open();
     document.write(fileContents);
     document.close();
@@ -90,7 +90,7 @@ describe("optionGen function works correctly", () => {
         expect(game.questionnum).toBe(1);
     });
     test("question num html value increments 1", () => {
-        expect(document.getElementById("question-num").innerHTML).toBe(game.questionnum);
+        expect(document.getElementById("question-num").innerHTML).toBe(`Question Number: ` + (game.questionnum));
     });
 });
 
