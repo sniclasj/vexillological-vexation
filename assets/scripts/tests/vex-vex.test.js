@@ -187,10 +187,4 @@ describe("checkAnswer function works correctly", () => {
     test("correct score in html should increment by 1 if player guess is correct", () => {
         expect(document.getElementById("correct").innerHTML).toBe(game.correctscore);
     });
-    test("game.incorrectscore should increment by 1 if player guess is incorrect", () => {
-        expect(game.incorrectscore).toBe(1);
-    });
-    test("incorrect score in html should increment by 1 if player guess is incorrect", () => {
-        expect(document.getElementById("incorrect").innerHTML).toBe(game.incorrectscore);
-    });
 });
