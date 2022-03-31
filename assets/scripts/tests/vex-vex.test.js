@@ -112,7 +112,7 @@ describe("changeIds function works correctly", () => {
         expect(document.getElementById("option2")).toBe(game.option2);
     });
     test("game.question value replaces question id in HTML", () => {
-        expect(document.getElementById("question").innerHTML).toBe(game.database.countries[game.database.flags.indexOf(game.question)]);
+        expect(document.getElementById("question").innerHTML).toBe(`Which flag belongs to...`+(game.database.countries[game.database.flags.indexOf(game.question)])+`?`);
     });
 });
 
