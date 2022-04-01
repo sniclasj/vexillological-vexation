@@ -79,6 +79,12 @@ function checkAnswer() {
         console.log(game.usedflags);
         game.correctscore++;
         document.getElementById("correct").innerHTML = game.correctscore;
+    } else if (game.playerguess == "option1") {
+        game.correctscore === 0;
+        game.incorrectscore === 0;
+    } else if (game.playerguess == "option2") {
+        game.correctscore === 0;
+        game.incorrectscore === 0;
     } else if (game.playerguess != game.question) {
         game.incorrectscore++;
         document.getElementById("incorrect").innerHTML = game.incorrectscore;
