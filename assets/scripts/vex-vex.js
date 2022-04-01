@@ -102,6 +102,10 @@ document.getElementById("option2").addEventListener('click', e => {
     playerGuess(this.id);checkAnswer();
 });
 
+document.getElementById("play-again-button").addEventListener('click', e => {
+    location.href='game.html';
+});
+
 module.exports = {
     game,
     optionGen,
