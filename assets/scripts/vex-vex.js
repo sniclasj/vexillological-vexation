@@ -90,6 +90,10 @@ function checkAnswer() {
     endGame();
 }
 
+document.getElementById("landing-page-start").addEventListener('click', e => {
+    location.href = 'game.html';
+});
+
 module.exports = {
     game,
     optionGen,
