@@ -96,9 +96,9 @@ function checkAnswer() {
     endGame();
 }
 
-document.getElementById("landing-page-start").addEventListener('click', e => {
-    location.href = 'game.html';
-});
+// document.getElementById("landing-page-start").addEventListener('click', e => {
+//     location.href = 'game.html';
+// });
 
 // document.getElementById("option1").addEventListener('click', e => {
 //     playerGuess(this.id);checkAnswer();
