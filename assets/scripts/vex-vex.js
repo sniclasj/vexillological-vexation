@@ -94,6 +94,14 @@ document.getElementById("landing-page-start").addEventListener('click', e => {
     location.href = 'game.html';
 });
 
+document.getElementById("option1").addEventListener('click', e => {
+    playerGuess(this.id);checkAnswer();
+});
+
+document.getElementById("option2").addEventListener('click', e => {
+    playerGuess(this.id);checkAnswer();
+});
+
 module.exports = {
     game,
     optionGen,
