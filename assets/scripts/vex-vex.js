@@ -68,6 +68,8 @@ function endGame() {
     }
 }
 
+localStorage.setItem("score", game.correctscore);
+
 function checkAnswer() {
     let indexQ = game.database.flags.indexOf(game.question);
     if (game.playerguess == game.question) {
