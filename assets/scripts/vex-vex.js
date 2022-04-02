@@ -96,13 +96,13 @@ function checkAnswer() {
     endGame();
 }
 
-// document.getElementById("option1").addEventListener('click', e => {
-//     playerGuess(this.id);checkAnswer();
-// });
+document.getElementById("option1").addEventListener('click', function() {
+    playerGuess(this.id); checkAnswer();
+});
 
-// document.getElementById("option2").addEventListener('click', e => {
-//     playerGuess(this.id);checkAnswer();
-// });
+document.getElementById("option2").addEventListener('click', function() {
+    playerGuess(this.id);checkAnswer();
+});
 
 module.exports = {
     game,
