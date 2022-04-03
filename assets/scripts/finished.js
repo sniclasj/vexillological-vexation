@@ -1,5 +1,6 @@
 /* jshint esversion: 8 */
 
+// Code credit: https://stackoverflow.com/questions/47817325/storing-my-game-score-in-local-storage Antoni
 let score = localStorage.getItem("result");
 let percent = ((score / 20) * 100);
 
