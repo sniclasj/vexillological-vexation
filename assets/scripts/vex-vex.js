@@ -64,11 +64,11 @@ function resetGuess() {
 
 function endGame() {
     if (game.correctscore + game.incorrectscore == 20) {
+        document.getElementById("question-num").innerHTML = `Game Over!`
+        localStorage.setItem("result", document.getElementById("correct").innerHTML);
         location.href = 'finished.html';
     }
 }
-
-localStorage.setItem("score", game.correctscore);
 
 function checkAnswer() {
     let indexQ = game.database.flags.indexOf(game.question);
