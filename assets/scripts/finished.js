@@ -6,3 +6,6 @@ document.getElementById("game-result").innerHTML = `You scored ${score} out of 2
 document.getElementById("play-again-button").addEventListener('click', function() {
     location.href = 'vex-vex.html';
 });
+document.getElementById("back-to-start").addEventListener('click', function() {
+    location.href = 'index.html';
+});
