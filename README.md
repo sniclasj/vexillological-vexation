@@ -67,67 +67,23 @@ This image features on the browser tab for all pages.
 
 ![Favicon](documentation/testing/sj-fitness-favicon.png)
 
-__Navigation Bar__
-
-This features on all pages and includes links to the gym's branding, Home page, Pricing page and Join Us page. The navigation bar is fully responsive and  is the same on each page to facilitate easy navigation.
-
-The navigation bar will allow users to navigate the site on all devices without having to use the 'back' button. 
-
-![Nav Bar](documentation/testing/sj-fitness-navbar.jpg)
-
-__Home/Landing Page__
+__Landing Page__
 
 The home/landing page contains a photograph of a person grabbing a barbell ready to lift it with the SJ Fitness motto of 'Better Starts Today' on a banner above. This motto is present to convey that the aim of the gym is to improve their fitness and engcourages the user to start their journey as soon as possible. 
 
 ![Landing Page](documentation/testing/sj-fitness-landing-page.jpg)
 
-__The 'SJ Fitness Difference' Section__
-
-This section highlights the gym's features to clients and/or prospective clients. The aim of this section is to entice new clients to the gym by showcasing its premium features in a clean and concise way.
-
-![The SJ Fitness Difference Section](documentation/testing/sj-fitness-difference-section.jpg)
-
-__The 'How Can We Help You?' Section__
-
-This section mentions numerous goals that clients may have in order to appeal to as wide an audience as possible. It leads on from the 'SJ Fitness Difference' section to highlight to clients and prospective clients that this is a gym for all abilities and all goals as opposed to only focussing on one type of training.
-
-![How Can We Help You? Section](documentation/testing/sj-fitness-how-can-we-help-you-section.jpg)
-
-__The 'Find Us!' Section__
-
-This section is a Google Maps snapshot to assist clients in finding the gym.
-
-![Find Us Section](documentation/testing/sj-fitness-find-us-section.jpg)
-
-__The Footer__ 
-
-The footer section includes links to social media sites (facebook, twitter, instagram), and an email address to help potential clients get in contact with SJ Fitness. The social media links open to a new tab for easier navigation.
-
-The footer is valuable for the gym business as it allows prospective clients to follow them on social media and to get in touch about new memberships. It is also valuable for the user as it directs them to the social media sites and gives them an email point of contact to ask any questions prior to signing up via the 'Join Us' page.
-
-![Footer](documentation/testing/sj-fitness-footer.jpg)
-
-__The Pricing Page__
+__Game Page__
 
 The pricing page has a brief explanation at the top of the page below the navigation bar which also contains a hyperlink to the Join Us page so that the user can immediately navigate to sign up.
 
 ![Pricing Intro](documentation/testing/sj-fitness-pricing-intro.jpg)
 
-The pricing page is then split into three columns which represents the different membership tiers and their respecting monthly cost. The information on different tiers is concisely summarised via the use of bullet points so that the user is not overloaded with too much information regarding the membership types.
-
-The membership tiers and bullet points are positioned in such a way that it is clear to see what is omitted as the pricing tier decreases which makes comparison of membership tiers easier for the user. This is also a strategy to increase the gym's revenue by convincing prospective clients to sign up for the top tier as they can see that the top tier does provide more for their money when comparing membership options.
-
-![Pricing Tiers](documentation/testing/sj-fitness-pricing-tiers.jpg)
-
-__The Join Us Page__
+__Results Summary Page__
 
 This page will allow the user to join SJ Fitness. The user will be able select their desired membership type whilst also being asked to provide their full name and email address.
 
 ![Join Us Form](documentation/testing/sj-fitness-join-us-form.jpg)
-
-Below the Join Us form, there is a looped video of a group of people high fiving each other which is used to convey the fact that the client is joining a supportive community by joining SJ Fitness.
-
-![Join Us Video](documentation/testing/sj-fitness-join-us-video.jpg)
 
 ### Features Left to Implement
 
