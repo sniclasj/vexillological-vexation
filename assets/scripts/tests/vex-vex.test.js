@@ -145,25 +145,3 @@ describe("resetGuess function works correctly", () => {
         expect(game.playerguess).toStrictEqual([]);
     });
 });
-
-// Test for if checkAnswer function works correctly
-describe("checkAnswer function works correctly", () => {
-    beforeAll(() => {
-        game.playerguess = ['wal'];
-        game.question = 'wal';
-        game.usedflags = [];
-        game.correctscore = [];
-        game.incorrectscore = [];
-        document.getElementById("correct").innerHTML = "0";
-        checkAnswer();
-    });
-    test("game.usedflags should be populated with game.question value", () => {
-        expect(game.usedflags).toStrictEqual(['wal']);
-    });
-    test("game.correctscore should increment by 1 if player guess is correct", () => {
-        expect(game.correctscore).toBe(1);
-    });
-    test("correct score in html should increment by 1 if player guess is correct", () => {
-        expect(document.getElementById("correct").innerHTML).toBe(game.correctscore);
-    });
-});
