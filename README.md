@@ -144,3 +144,5 @@ The video used on the Join Us page was taken from [Pexels](https://www.pexels.co
 ### Acknowledgements
 
 I would like to thank my Code Institute mentor Tim Nelson for his support during the course of this project.
+
+I would also like to thank the Code Institute tutor team for the assistance provided during the course of this project.
