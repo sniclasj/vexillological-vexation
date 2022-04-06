@@ -106,10 +106,10 @@ describe("changeIds function works correctly", () => {
     // Tests always fails but work perfectly in console so must
     // be an issue with the test as opposed to the code?
     test("game.option1 value replaces option1 id in HTML", () => {
-        expect(document.getElementById("option1")).toBe(game.option1);
+        expect(document.getElementById(game.option1).id).toBe(game.option1);
     });
     test("game.option2 value replaces option2 id in HTML", () => {
-        expect(document.getElementById("option2")).toBe(game.option2);
+        expect(document.getElementById(game.option2).id).toBe(game.option2);
     });
     test("game.question value replaces question id in HTML", () => {
         expect(document.getElementById("question").innerHTML).toBe(`Which flag belongs to...` + (game.database.countries[game.database.flags.indexOf(game.question)]) + `?`);
@@ -128,10 +128,10 @@ describe("revertIds function works correctly", () => {
     // Tests always fails but work perfectly in console so must
     // be an issue with the test as opposed to the code?
     test("game.option1 id value is reverted back to option1 id in HTML", () => {
-        expect(document.getElementById(game.option1)).toBe("option1");
+        expect(document.getElementById("option1")).toBe("option1");
     });
     test("game.option1 id value is reverted back to option1 id in HTML", () => {
-        expect(document.getElementById(game.option2)).toBe("option2");
+        expect(document.getElementById("option2")).toBe("option2");
     });
 });
 
