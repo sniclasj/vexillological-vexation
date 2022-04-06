@@ -1,31 +1,31 @@
-# SJ Fitness
+# Vexillological Vexation!
 
-SJ Fitness is a website for a personal trainer owned gym located in West Wales. The site is aimed at fitness enthusiasts of all levels. The website will be used to attract new members to the gym and to enable the gym to receive new member enquiries at the client's desired tier/price point.
+'Vexillological Vexation!' is a web based flag guessing game. Players are presented with a question along with images of two different flags however only one of the flag images correctly matches the country in the question. The player must then click on the flag they believe to be correct. If they have selected the correct flag, the correct score tally will increase by one. If they have selected the incorrect flag, the incorrect score tally will increase by one. The game ends after 20 questions and players are shown how many questions out of 20 they got correct in a numerical and percentage format. The game is aimed all ages.
 
 ![Responsive Mockup](documentation/testing/sj-fitness-responsive-mock-up.jpg)
 
 ## User Stories
 
-- As a user, I want to be able to click links in the navbar, so that I can view different pages on the site.
-- As a user, I want to be able to see social media icons, so that I can follow the business on their social platforms.
-- As a user, I want to see a summary of products, so that I can better understand the most suitable option.
-- As a user, I want to be able to contact the company, so that I can ask further questions or provide information.
+- As a user, I want to be able to read about how to play the game before playing.
+- As a user, I want to be able to initiate the start of the game myself.
+- As a user, I want to be able to intuitively know where to click to make my flag selection.
+- As a user, I want to be able to see my performance within the game e.g. how many questions have I got correct/incorrect so far.
+- As a user, I want to be able to avoid repetition of flags I have already guessed correctly.
 - As a user, I want to be able to view the site on any device, so that I can see it on my phone, tablet, or desktop.
-- As a user, I want to be able to see where the company is located, so that I can see how easy it is for me to get there.
 
 ## UX
 
 The aim of my site design was to be as simple, clear and concise as possible.
 
-The Home and Pricing page have the same layout consisting of a section which takes up the whole width of the screen followed by three columns.
+The landing page contains the title of the game, instructions of how to play and a large 'Start' button to draw the player's attention to the element which will allow them to begin the game.
 
-The pricing page utilises different opacity percentages in each column to represent different pricing tiers. This is discussed in more detail in the Colour Scheme section below.
+The page where the game is played is streamlined to the title of the game, a box to tally correct answers, a box to tally incorrect answers, a box detailing the question number, a box detailing the question, and two clickable buttons displaying the flag option images.
 
-The Join Us page has been kept very simple consiting of a form and an inspirational video only. The reason for the simplicity of this page is to ensure the user solely focuses on completing and submitting the form.
+Finally, when the 20th question has been answered, the page updates to display the results summary page which contains a box congratulating the user for finishig the game, a summary of their numerical score out of 20 which is also expressed as a percentage along with two clickable buttons namely 'Play Again' and 'No thanks...'. Clicking 'Play Again' will take the user to a new game page and a new 'Question 1' where as clicking 'No thanks...' will take the user back to the landing page.
 
 The website is designed to react responsively when the screen size decreases to medium and below.
 
-When the screen size decreases beyond the medium breakpoint, the three columns which are usually adjacent to each other on a large screen will stack on top of each other. The contents of the footer also stack on top of each other to ensure the important information within the footer remains visible.
+When the screen size decreases beyond the medium breakpoint, any columns which are usually adjacent to each other on a large screen will stack on top of each other.
 
 ### Colour Scheme
 
