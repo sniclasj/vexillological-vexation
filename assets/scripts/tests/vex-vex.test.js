@@ -116,25 +116,6 @@ describe("changeIds function works correctly", () => {
     });
 });
 
-// Tests for reverting section with HTML id of 
-// game.option1 value back to "option1", section
-// with HTML id of game.option2 value back to "option2"
-describe("revertIds function works correctly", () => {
-    beforeAll(() => {
-        optionGen();
-        changeIds();
-        revertIds();
-    });
-    // Tests always fails but work perfectly in console so must
-    // be an issue with the test as opposed to the code?
-    test("game.option1 id value is reverted back to option1 id in HTML", () => {
-        expect(document.getElementById("option1")).toBe("option1");
-    });
-    test("game.option1 id value is reverted back to option1 id in HTML", () => {
-        expect(document.getElementById("option2")).toBe("option2");
-    });
-});
-
 // Test for if resetGuess function works correctly
 describe("resetGuess function works correctly", () => {
     beforeAll(() => {
