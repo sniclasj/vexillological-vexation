@@ -121,11 +121,11 @@ The live link can be found here - [Vexillological Vexation!](https://sniclasj.gi
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/sniclasj/sj-fitness.git`
+- `git clone https://github.com/sniclasj/vexillological-vexation.git`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sniclasj/sj-fitness)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sniclasj/sj-vexillological-vexation)
 
 ## Credits 
 
