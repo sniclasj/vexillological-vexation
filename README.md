@@ -96,7 +96,7 @@ A future feature to implement would be COMPLETE LATER.
 - [Git](https://www.atlassian.com/git) - used for version control.
 - [GitHub](https://github.com/) - used to secure my code online.
 - [Gitpod](https://www.gitpod.io/) - used as the cloud-based IDE. 
-- [GitHub Pages](https://github.com/sniclasj/sj-fitness/deployments/activity_log?environment=github-pages) - used to deploy the site.
+- [GitHub Pages](https://github.com/sniclasj/vexillological-vexation/deployments/activity_log?environment=github-pages) - used to deploy the site.
 - [amiresponsive](http://ami.responsivedesign.is/#) - used for the mockup image.
 - [HTML](https://en.wikipedia.org/wiki/HTML) - used to write the code for the website.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - used to write the code for the website.
