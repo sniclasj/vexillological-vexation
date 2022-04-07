@@ -76,13 +76,14 @@ The final element on the landing page is a large start button which contains an 
 
 __Game Page__
 
-The pricing page has a brief explanation at the top of the page below the navigation bar which also contains a hyperlink to the Join Us page so that the user can immediately navigate to sign up.
+The top of the game page maintains visibility of the game's title. A box displaying the question number is located below the title and a box with the name of the country the player must identify follows. Beneath the box containing the name of the country are boxes for tallying correct and incorrect answers. Finally, two clickable buttons are located below the correct/incorrect tally boxes and it is these buttons which display the two flag image options for the user's guess.
 
 ![Game Page](documentation/testing/vex-vex-game-page.png)
 
 __Results Summary Page__
 
-This page will allow the user to join SJ Fitness. The user will be able select their desired membership type whilst also being asked to provide their full name and email address.
+Once the user has answered their 20th question, the results summary page will be displayed. This page congratulates the user on finishing the game and summarises the user's score numerically e.g. 12/20 and in a percentage format e.g. 60%.
+This page contains two clickable buttons, namely, 'Play Again' and 'No thanks...'. These buttons have the sane format as the 'Start' button located on the landing page to maintain consistency. If the 'Play Again' button is clicked, the user will be directed to a new round of questions. If the 'No thanks...' button is clicked, the user will be directed back to the landing page where they can start a new game whenever they are ready.
 
 ![Results Summary](documentation/testing/vex-vex-results-summary-page.png)
 
