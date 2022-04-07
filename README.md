@@ -131,17 +131,11 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content 
 
-In order to create a placeholder for my dropdown list on the Join Us page, I utilised and modified the following code taken from [Stack Overflow](https://stackoverflow.com/questions/5805059/how-do-i-make-a-placeholder-for-a-select-box).
-
-In order to ensure the footer remains 'stuck' to the bottom of all pages, I utilised the following code taken from [CSS Tricks](https://css-tricks.com/a-clever-sticky-footer-technique/).
+INSERT CODE CREDITS HERE.
 
 ### Media
 
-The photo used on the landing/home page was taken from [Simplifaster](https://simplifaster.com/articles/weightlifting-progressions-tall-long-limbed-athletes/).
-
-The icons used for the Pricing tiers and for the social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-
-The video used on the Join Us page was taken from [Pexels](https://www.pexels.com/video/silhouette-of-friends-doing-high-five-8692158/).
+INSERT ANY MEDIA HERE.
 
 ### Acknowledgements
 
