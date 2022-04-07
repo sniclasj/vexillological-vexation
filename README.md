@@ -69,21 +69,22 @@ This image features on the browser tab for all pages.
 
 __Landing Page__
 
-The home/landing page contains a photograph of a person grabbing a barbell ready to lift it with the SJ Fitness motto of 'Better Starts Today' on a banner above. This motto is present to convey that the aim of the gym is to improve their fitness and engcourages the user to start their journey as soon as possible. 
+The home/landing page contains a the title of the game, a box with a heading of 'How to Play' and a box below with specific game instructions.
+The final element on the landing page is a large start button which contains an animation of multiple flags fluttering on repeat. This is to draw the user's attention to the start button to make it clear that this is how the game can be initiated.
 
-![Landing Page](documentation/testing/sj-fitness-landing-page.jpg)
+![Landing Page](documentation/testing/vex-vex-landing-page.png)
 
 __Game Page__
 
 The pricing page has a brief explanation at the top of the page below the navigation bar which also contains a hyperlink to the Join Us page so that the user can immediately navigate to sign up.
 
-![Pricing Intro](documentation/testing/sj-fitness-pricing-intro.jpg)
+![Game Page](documentation/testing/vex-vex-game-page.png)
 
 __Results Summary Page__
 
 This page will allow the user to join SJ Fitness. The user will be able select their desired membership type whilst also being asked to provide their full name and email address.
 
-![Join Us Form](documentation/testing/sj-fitness-join-us-form.jpg)
+![Results Summary](documentation/testing/vex-vex-results-summary-page.png)
 
 ### Features Left to Implement
 
