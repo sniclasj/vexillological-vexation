@@ -2,7 +2,7 @@
 
 'Vexillological Vexation!' is a web based flag guessing game. Players are presented with a question along with images of two different flags however only one of the flag images correctly matches the country in the question. The player must then click on the flag they believe to be correct. If they have selected the correct flag, the correct score tally will increase by one. If they have selected the incorrect flag, the incorrect score tally will increase by one. The game ends after 20 questions and players are shown how many questions out of 20 they got correct in a numerical and percentage format. The game is aimed all ages.
 
-![Responsive Mockup](documentation/testing/sj-fitness-responsive-mock-up.jpg)
+![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up.png)
 
 ## User Stories
 
