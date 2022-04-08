@@ -103,7 +103,6 @@ A future feature to implement would be COMPLETE LATER.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - used to write the code for the website.
 - [CSS](https://en.wikipedia.org/wiki/CSS) - used to style the website.
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) - used to create a grid structure for the website.
-- [CSS Root Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - used to represent colours in style.css.
 
 ## Testing
 
