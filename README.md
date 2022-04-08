@@ -29,19 +29,20 @@ When the screen size decreases beyond the medium breakpoint, any columns which a
 
 ### Colour Scheme
 
-The body has a background colour of _Davys Grey_ to convey an industrial theme. The text colour is _Cultured_ to allow the text to stand out against the darker background.
+The body has a background colour of _Dark Liver_ to allow the content boxes to stand out. The content boxes have a background colour of _Burgundy_ with a border and text colour of _Middle Yellow_.
+This colour scheme is inspired by the colour scheme of the video game Crash Bandicoot!
 
-The navbar and footer have a _Black_ background with _Mikado Yellow_ text. This allows the navbar and footer to stand out against the body and the _Mikado Yellow_ text within the _Black_ navbar allows key information and icons to stand out across all pages. Any links within the body text e.g. 'Join Us' are also highlighted in _Mikado Yellow_ to maximise visibility.
+![Crash Bandicoot](documentation/testing/vex-vex-crash-bandicoot.png).
 
 The colour scheme below was generated using [coolors](https://coolors.co/).
 
-![Coolors Colour Scheme](documentation/testing/sj-fitness-coolors.jpg)
+![Coolors Colour Scheme](documentation/testing/vex-vex-coolors.png)
 
 ### Typography
 
 The font selected for the website was _Rakkas_ which was imported from [Google Fonts](https://fonts.google.com/specimen/Rakkas).
 
-This font was selected as it was striking and it reminded me of the font used in the famously frustrating game 'Crash Bandicoot'. I could imagine players of my game becoming frustrated at selecting the incorrect flag and decided that this font was therefore a good choice.
+This font was also selected as it reminded me of the font used in the famously frustrating game 'Crash Bandicoot'. I could imagine players of my game becoming frustrated at selecting the incorrect flag and decided that this font was therefore a good choice.
 
 ### Wireframes
 
