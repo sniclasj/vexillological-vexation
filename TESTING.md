@@ -1,8 +1,12 @@
 # Testing
 
+## JEST
+
+The game was built iteratively by utilising the JEST testing suite.
+
 ## Browser Compatibility
 
-The website has been successfully tested on the following browsers:
+The game website has been successfully tested on the following browsers:
 - Chrome
 - Edge
 - Safari (on personal mobile device - iPhone 11 Pro)
