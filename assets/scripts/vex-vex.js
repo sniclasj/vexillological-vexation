@@ -100,6 +100,11 @@ function checkAnswer() {
     endGame();
 }
 
+document.addEventListener("DOMContentLoaded", function() { 
+    optionGen();
+    changeIds();
+  });
+
 document.getElementById("option1").addEventListener('click', function () {
     playerGuess(this.id);
     checkAnswer();
