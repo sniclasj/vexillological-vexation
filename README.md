@@ -77,7 +77,7 @@ The final element on the landing page is a large start button which contains an 
 
 __Game Page__
 
-The top of the game page maintains visibility of the game's title. A box displaying the question number is located below the title and a box with the name of the country the player must identify follows. Beneath the box containing the name of the country are boxes for tallying correct and incorrect answers. Finally, two clickable buttons are located below the correct/incorrect tally boxes and it is these buttons which display the two flag image options for the user's guess.
+The top of the game page maintains visibility of the game's title. Boxes displaying tallies for correct and incorrect answers are located below the title. Beneath the score tally boxes are boxes displaying the question number and the name of the country whose flag must be identified. Finally, two clickable buttons are located below the box containing the country name, and it is these buttons which display the flag image options for the user to choose between.
 
 ![Game Page](documentation/testing/vex-vex-game-page.png)
 
