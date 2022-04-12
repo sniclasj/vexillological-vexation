@@ -13,27 +13,45 @@ The game website has been successfully tested on the following browsers:
 
 __Chrome Screenshots__
 
-![Landing Page](documentation/testing/sj-fitness-chrome-desktop.jpg)
+- Chrome Desktop Landing Page
 
-![Game Page](documentation/testing/sj-fitness-chrome-desktop-a.jpg)
+![Landing Page](documentation/testing/vex-vex-chrome-desktop-landing-page.png)
 
-![Results Summary Page](documentation/testing/sj-fitness-chrome-desktop-b.jpg)
+- Chrome Desktop Game Page
+
+![Game Page](documentation/testing/vex-vex-chrome-desktop-game-page.png)
+
+- Chrome Desktop Results Summary Page
+
+![Results Summary Page](documentation/testing/vex-vex-chrome-desktop-results-summary-page.png)
 
 __Edge Screenshots__
 
-![Landing Page](documentation/testing/sj-fitness-chrome-desktop.jpg)
+- Edge Desktop Landing Page
 
-![Game Page](documentation/testing/sj-fitness-chrome-desktop-a.jpg)
+![Landing Page](documentation/testing/vex-vex-edge-desktop-landing-page.png)
 
-![Results Summary Page](documentation/testing/sj-fitness-chrome-desktop-b.jpg)
+- Edge Desktop Game Page
+
+![Game Page](documentation/testing/vex-vex-edge-desktop-game-page.png)
+
+- Edge Desktop Results Summary Page
+
+![Results Summary Page](documentation/testing/vex-vex-edge-desktop-results-summary-page.png)
 
 __Safari (Mobile) Screenshots__
 
-![Landing Page](documentation/testing/sj-fitness-chrome-desktop.jpg)
+- Safari Mobile Landing Page
 
-![Game Page](documentation/testing/sj-fitness-chrome-desktop-a.jpg)
+![Landing Page](documentation/testing/vex-vex-safari-mobile-landing-page.png)
 
-![Results Summary Page](documentation/testing/sj-fitness-chrome-desktop-b.jpg)
+- Safari Mobile Game Page
+
+![Game Page](documentation/testing/vex-vex-safari-mobile-game-page.png)
+
+- Safari Mobile Results Summary Page
+
+![Results Summary Page](documentation/testing/vex-vex-safari-mobile-results-summary-page.png)
 
 ## Code Validation
 
