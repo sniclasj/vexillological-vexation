@@ -46,17 +46,17 @@ This font was also selected as it reminded me of the font used in the famously f
 
 ### Wireframes
 
-__Desktop/Large Screen Home Wireframe__
-![Desktop Home Wireframe](documentation/wireframes/desktop-home-wireframe.jpg)
+__Large Screen Landing Page Wireframe__
+![Landing Page Large Screen Wireframe](documentation/wireframes/vex-vex-wireframe-landing-page-large.jpg)
 
-__Desktop/Large Screen Pricing Wireframe__
-![Desktop Home Wireframe](documentation/wireframes/desktop-pricing-wireframe.jpg)
+__Large Screen Game Page Wireframe__
+![Game Page Large Screen Wireframe](documentation/wireframes/vex-vex-wireframe-game-page-large.jpg)
 
-__Desktop/Large Screen Join Us Wireframe__
-![Desktop Home Wireframe](documentation/wireframes/desktop-join-us-wireframe.jpg)
+__Large Screen Results Summary Wireframe__
+![Results Summary Large Screen Wireframe](documentation/wireframes/vex-vex-wireframe-results-summary-page-large.jpg)
 
-__Medium Screen and Below Wireframe__
-![Desktop Home Wireframe](documentation/wireframes/medium-and-below-wireframe.jpg)
+__Medium Screen and Below All Pages Wireframe__
+![All Pages Medium and Below Wireframe](documentation/wireframes/vex-vex-wireframe-all-pages-medium-and-below.jpg)
 
 ## Features 
 
