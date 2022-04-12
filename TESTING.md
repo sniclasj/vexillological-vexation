@@ -69,23 +69,14 @@ No errors or warnings were found on any page when passing through the official [
 
 ### Lighthouse
 
-__Mobile Test Results: Landing Page__
-![Landing Page Mobile Lighthouse Results](documentation/testing/sj-fitness-index-lighthouse-mobile.jpg)
+__Test Results: Landing Page__
+![Landing Page Lighthouse Results](documentation/testing/sj-fitness-index-lighthouse-desktop.jpg)
 
-__Mobile Test Results: Game Page__
-![Game Page Mobile Lighthouse Results](documentation/testing/sj-fitness-pricing-lighthouse-mobile.jpg)
+__Test Results: Game Page__
+![Game Page Lighthouse Results](documentation/testing/sj-fitness-pricing-lighthouse-desktop.jpg)
 
-__Mobile Test Results: Results Summary__
-![Results Summary Mobile Lighthouse Results](documentation/testing/sj-fitness-join-us-lighthouse-mobile.jpg)
-
-__Desktop Test Results: Landing Page__
-![Landing Page Desktop Lighthouse Results](documentation/testing/sj-fitness-index-lighthouse-desktop.jpg)
-
-__Desktop Test Results: Game Page__
-![Game Page Desktop Lighthouse Results](documentation/testing/sj-fitness-pricing-lighthouse-desktop.jpg)
-
-__Desktop Test Results: Results Summary__
-![Results Summary Desktop Lighthouse Results](documentation/testing/sj-fitness-join-us-lighthouse-desktop.jpg)
+__Test Results: Results Summary__
+![Results Summary Lighthouse Results](documentation/testing/sj-fitness-join-us-lighthouse-desktop.jpg)
 
 The issue highlighted in the Lighthouse testing is due to the contrast of text colour in relation to background colour on the pricing.html page. This is discussed in the Unfixed Bugs section at the end of this document.
 
