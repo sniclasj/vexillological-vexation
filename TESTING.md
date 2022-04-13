@@ -1,8 +1,9 @@
 # Testing
 
-## JEST
+## Test Driven Development with JEST
 
-The game was built iteratively by utilising the JEST testing suite.
+A test driven development approach was taken in order to develop the game. This was done by utilising the JEST testing suite.
+Tests were built and validated prior to building core game functionality.
 
 ## Browser Compatibility
 
