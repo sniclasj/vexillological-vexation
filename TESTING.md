@@ -71,7 +71,7 @@ No errors or warnings were found on any page when passing through the official [
 ### Lighthouse
 
 __Test Results: Landing Page__
-![Landing Page Lighthouse Results](documentation/testing/sj-fitness-index-lighthouse-desktop.jpg)
+![Landing Page Lighthouse Results](documentation/testing/vex-vex-lighthouse-landing-page.png)
 
 __Test Results: Game Page__
 ![Game Page Lighthouse Results](documentation/testing/sj-fitness-pricing-lighthouse-desktop.jpg)
