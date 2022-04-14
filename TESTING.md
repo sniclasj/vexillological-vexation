@@ -84,7 +84,7 @@ In future, I will filter my search for animated content to ensure that the .gif 
 
 ## Responsiveness
 
-__Landing Page Page__
+__Landing Page__
 
 Large
 
