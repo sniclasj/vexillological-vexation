@@ -88,43 +88,31 @@ __Landing Page Page__
 
 Large
 
-![Landing Page Large](documentation/testing/sj-fitness-responsiveness-large.jpg)
+![Landing Page Large](documentation/testing/vex-vex-responsiveness-landing-page-large.png)
 
-Medium
+Medium and Below
 
-![Landing Page Medium](documentation/testing/sj-fitness-responsiveness-medium.jpg)
-
-Small
-
-![Landing Page Small](documentation/testing/sj-fitness-responsiveness-small.jpg)
+![Landing Page Medium](documentation/testing/vex-vex-responsiveness-landing-page-medium-and-below.png)
 
 __Game Page__
 
 Large
 
-![Game Page Large](documentation/testing/sj-fitness-responsiveness-pricing-large.jpg)
+![Game Page Large](documentation/testing/vex-vex-responsiveness-game-page-large.png)
 
-Medium
+Medium and Below
 
-![Game Page Medium](documentation/testing/sj-fitness-responsiveness-pricing-medium.jpg)
-
-Small
-
-![Game Page Small](documentation/testing/sj-fitness-responsiveness-pricing-small.jpg)
+![Game Page Medium](documentation/testing/vex-vex-responsiveness-game-page-medium-and-below.png)
 
 __Results Summary Page__
 
 Large
 
-![Results Summary Large](documentation/testing/sj-fitness-responsiveness-join-us-large.jpg)
+![Results Summary Large](documentation/testing/vex-vex-responsiveness-results-summary-page-large.png)
 
-Medium
+Medium and Below
 
-![Results Summary Medium](documentation/testing/sj-fitness-responsiveness-join-us-medium.jpg)
-
-Small
-
-![Results Summary Small](documentation/testing/sj-fitness-responsiveness-join-us-small.jpg)
+![Results Summary Medium](documentation/testing/vex-vex-responsiveness-results-summary-page-medium-and-below.png)
 
 ## User Story Tests
 
