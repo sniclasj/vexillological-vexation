@@ -74,12 +74,13 @@ __Test Results: Landing Page__
 ![Landing Page Lighthouse Results](documentation/testing/vex-vex-lighthouse-landing-page.png)
 
 __Test Results: Game Page__
-![Game Page Lighthouse Results](documentation/testing/sj-fitness-pricing-lighthouse-desktop.jpg)
+![Game Page Lighthouse Results](documentation/testing/vex-vex-lighthouse-game-page.png)
 
 __Test Results: Results Summary__
-![Results Summary Lighthouse Results](documentation/testing/sj-fitness-join-us-lighthouse-desktop.jpg)
+![Results Summary Lighthouse Results](documentation/testing/vex-vex-lighthouse-results-summary-page.png)
 
-The issue highlighted in the Lighthouse testing is due to the contrast of text colour in relation to background colour on the pricing.html page. This is discussed in the Unfixed Bugs section at the end of this document.
+The only issue highlighted in the Lighthouse testing is the use of the .gif format on the animated content on the Results Summary Page. The report has suggested utilising a video format such as .mp4 instead, however, I could only find the animated content I wanted to use in .gif format.
+In future, I will filter my search for animated content to ensure that the .gif format is omitted.
 
 ## Responsiveness
 
