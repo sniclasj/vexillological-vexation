@@ -9,6 +9,7 @@ body {
 .landing-page-component {
     background-color: rgb(131, 12, 32);
     border: 2px solid rgba(255, 233, 0);
+    border-radius: 15px 15px 15px 15px;
     color: rgba(255, 233, 0);
     font-family: 'Rakkas', cursive;
     margin: 10px;
@@ -19,6 +20,7 @@ body {
     height: 150px;
     width: 300px;
     border: 2px solid rgba(255, 233, 0);
+    border-radius: 15px 15px 15px 15px;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
     font-family: 'Rakkas', cursive;
@@ -36,6 +38,7 @@ body {
 .game-component {
     background-color: rgb(131, 12, 32);
     border: 2px solid rgba(255, 233, 0);
+    border-radius: 15px 15px 15px 15px;
     color: rgba(255, 233, 0);
     font-family: 'Rakkas', cursive;
     margin: 10px;
@@ -43,6 +46,7 @@ body {
 
 button {
     border: 2px solid rgba(255, 233, 0);
+    border-radius: 15px 15px 15px 15px !important;
 }
 
 /* Flag image styles */
