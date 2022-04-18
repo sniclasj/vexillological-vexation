@@ -1,4 +1,5 @@
 /* jshint esversion: 8 */
+
 // Define keys for the game
 let game = {
     database: {
@@ -39,29 +40,37 @@ function optionGen() {
     game.question = [game.option1, game.option2][Math.round(Math.random())];
 }
 
+// Replaces html elements with ids option1 and option2 with the randomly generated ids game.option1 and game.option2
 function changeIds() {
     // Credit: https://www.w3schools.com/jsref/prop_html_id.asp
     document.getElementById("option1").id = game.option1;
     document.getElementById("option2").id = game.option2;
+    // Identifies index of country name linked to random flag id used for game.question and publishes it into the innerHTML text of html element with id "question"
     // Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
     let indexQ = game.database.flags.indexOf(game.question);
     document.getElementById("question").innerHTML = `Which flag belongs to...` + (game.database.countries[indexQ]) + `?`;
 }
 
+// Changes the ids of html elements with ids game.option1 and game.option2 back to option1 and option2 respectively
 function revertIds() {
     document.getElementById(game.option1).id = "option1";
     document.getElementById(game.option2).id = "option2";
 }
 
+// Pushes the id of the clicked element into game.playerguess
 //Credit: Modified from https://stackoverflow.com/questions/4825295/onclick-to-get-the-id-of-the-clicked-button shamittomar
 function playerGuess(clicked_id) {
     game.playerguess.push(clicked_id);
 }
 
+// Resets game.playerguess from containing the value of the clicked id back to an empty array
 function resetGuess() {
     game.playerguess = [];
 }
 
+// Ends the game and directs user to finished.html if the sum of game.correctscore and game.incorrectscore is equal to 20.
+// Changes html text of elements with ids "question-num" and "question" to 'Game Over!' and 'Thanks for Playing!' respectively.
+// Stores the number of correct answers as "result"to be called upon on a different page
 function endGame() {
     if (game.correctscore + game.incorrectscore == 20) {
         document.getElementById("question-num").innerHTML = `Game Over!`
@@ -73,7 +82,14 @@ function endGame() {
 }
 
 function checkAnswer() {
+    // Defines indexQ as the value of the index of flag id pushed into game.question
     let indexQ = game.database.flags.indexOf(game.question);
+    // If game.playerguess id == game.question id:
+    // id of game.question is pushed into game.usedflags array
+    // Flag id and country id are spliced from the overall game.database so that they cannot appear in the game again
+    // game.database.flags is logged to the console as a development check
+    // game.usedflags is logged to the console as a development check
+    // game.correctscore increments by 1 and the value of the html element with id "correct" is updated to the new value
     if (game.playerguess == game.question) {
         game.usedflags.push(game.question);
         // Splice code credit: https://love2dev.com/blog/javascript-remove-from-array/#remove-from-array-splice
@@ -83,16 +99,23 @@ function checkAnswer() {
         console.log(game.usedflags);
         game.correctscore++;
         document.getElementById("correct").innerHTML = game.correctscore;
+        // If game.playerguess == the id "option1"or "option2", this ensures the score remains as zero
+        // This is to prevent accidental score incrementation in the short period of time where placeholder images are in place instead of flag images.
+        // The ids of the placeholder iages are "option1" and "option2" respectively so if these are clicked, the code below ensures the scores to not accidentally increment.
     } else if (game.playerguess == "option1") {
         game.correctscore === 0;
         game.incorrectscore === 0;
     } else if (game.playerguess == "option2") {
         game.correctscore === 0;
         game.incorrectscore === 0;
+
+        // If game.playerguess != game.question:
+        // game.incorrectscore increments by 1 and the value of the html element with id "incorrect" is updated to the new value
     } else if (game.playerguess != game.question) {
         game.incorrectscore++;
         document.getElementById("incorrect").innerHTML = game.incorrectscore;
     }
+    // Calls previously defined functions within the checkAnswer function.
     resetGuess();
     revertIds();
     optionGen();
@@ -100,21 +123,27 @@ function checkAnswer() {
     endGame();
 }
 
-document.addEventListener("DOMContentLoaded", function() { 
+// Awaits for the content of the page to be loaded before running optionGen and changeIds functions which are integral to displaying the flag options for the player to guess
+document.addEventListener("DOMContentLoaded", function () {
     optionGen();
     changeIds();
-  });
+});
 
+// Pushes the id of the clicked element into the playerGuess array and instigates the running of the checkAnswer function when the html element with id "option1" is clicked.
+// The nature of the functions means that the element with id "option1" changes dynamically as the id is changed to be a flag id before being reset to "option1" beforeeing assigned a new flag id.
 document.getElementById("option1").addEventListener('click', function () {
     playerGuess(this.id);
     checkAnswer();
 });
 
+// Pushes the id of the clicked element into the playerGuess array and instigates the running of the checkAnswer function when the html element with id "option2" is clicked.
+// The nature of the functions means that the element with id "option2" changes dynamically as the id is changed to be a flag id before being reset to "option1" beforeeing assigned a new flag id.
 document.getElementById("option2").addEventListener('click', function () {
     playerGuess(this.id);
     checkAnswer();
 });
 
+// Exports the game functions as described in the lectures although this code does cause a console error
 module.exports = {
     game,
     optionGen,
