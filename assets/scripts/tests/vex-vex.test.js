@@ -3,18 +3,11 @@
  */
 
 /* jshint esversion: 8 */
-/**
- * @jest-environment jsdom
- */
 
 const {
     game,
     optionGen,
-    changeIds,
-    revertIds,
-    playerGuess,
     resetGuess,
-    checkAnswer,
 } = require("../vex-vex");
 
 beforeAll(() => {
@@ -57,8 +50,6 @@ describe("game object contains correct keys", () => {
 
 // Test for generating game.option1 and game.option2
 // values from the game.database.flags array.
-// Test for game.question to be either the value
-// of game.option1 or game.option2
 describe("optionGen function works correctly", () => {
     beforeAll(() => {
         game.option1 = [];
@@ -72,14 +63,13 @@ describe("optionGen function works correctly", () => {
     test("option2 is generated with a random value from database key", () => {
         expect(game.database.flags).toContain(game.option2);
     });
-    //Possible that option1 can be the same as option2
-    //Test can provide false passes due to random value generation
-    // Code in js file will ensure false passes do not occur
+    
+    //Test to ensure game.option1 != game.option2
     test("random vaue for option1 != random value for option2", () => {
         expect(game.option1).not.toBe(game.option2);
     });
-    // Check if this test is appropriate. It has resolved
-    // occasional failed test issue before the test rewrite
+
+    // Test to ensure game.question = game.option1 or game.option2
     // Credit: https://stackoverflow.com/questions/51519041/jest-matcher-to-match-any-one-of-three-values jordrake
     test("question value is either option1 or option2", () => {
         expect(
