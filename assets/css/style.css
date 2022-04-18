@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 
+/* Style for body throughout game */
 body {
     background-color: rgb(80, 74, 75) !important;
 }
 
+/* Styles for landing page (index.html) */
 .landing-page-component {
     background-color: rgb(131, 12, 32);
     border: 2px solid rgba(255, 233, 0);
@@ -30,6 +32,7 @@ body {
     font-family: 'Rakkas', cursive !important;
 }
 
+/* Styles for game page (vex-vex.html) */
 .game-component {
     background-color: rgb(131, 12, 32);
     border: 2px solid rgba(255, 233, 0);
@@ -42,7 +45,8 @@ button {
     border: 2px solid rgba(255, 233, 0);
 }
 
-/* Flag images and respective ID numbers */
+/* Flag image styles */
+
 /* Flag image: https://4.bp.blogspot.com/-wfvG0o9TyNU/W-MMqKEYb2I/AAAAAAAAuCY/J_wkatKjz3s6_ncpl3shRK5mC07CzgiawCLcBGAs/s1600/all_country_flags_in_one_flag.gif */
 #option1,
 #option2 {
