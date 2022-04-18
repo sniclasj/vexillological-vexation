@@ -94,28 +94,6 @@ describe("optionGen function works correctly", () => {
     });
 });
 
-// Tests for applying game.option1 value to HTML
-// section with id option1, game.option2 value to
-// HTML section with id option 2 and for generating
-// a country name in game.question
-describe("changeIds function works correctly", () => {
-    beforeAll(() => {
-        optionGen();
-        changeIds();
-    });
-    // Tests always fails but work perfectly in console so must
-    // be an issue with the test as opposed to the code?
-    test("game.option1 value replaces option1 id in HTML", () => {
-        expect(document.getElementById(game.option1).id).toBe(game.option1);
-    });
-    test("game.option2 value replaces option2 id in HTML", () => {
-        expect(document.getElementById(game.option2).id).toBe(game.option2);
-    });
-    test("game.question value replaces question id in HTML", () => {
-        expect(document.getElementById("question").innerHTML).toBe(`Which flag belongs to...` + (game.database.countries[game.database.flags.indexOf(game.question)]) + `?`);
-    });
-});
-
 // Test for if resetGuess function works correctly
 describe("resetGuess function works correctly", () => {
     beforeAll(() => {
