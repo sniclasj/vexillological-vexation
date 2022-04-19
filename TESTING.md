@@ -198,7 +198,7 @@ Medium and Below
 
 ![Game Page](documentation/testing/vex-vex-chrome-desktop-game-page.png)
 
-- As a user, I want to be able to avoid repetition of flags I have already guessed correctly. Note: The screenshot below shows how correctly guessed flag IDs are removed from the original array of 50 and stores in a separate array called 'used flags'.
+- As a user, I want to be able to avoid repetition of flags I have already guessed correctly. Note: The screenshot below shows how correctly guessed flag IDs are removed from the original array of 50 and stored in a separate array called 'used flags'.
 
 ![Repetition Avoidance](documentation/testing/vex-vex-console-showing-repetition-avoidance.png)
 
