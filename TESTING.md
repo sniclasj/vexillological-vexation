@@ -131,6 +131,10 @@ No errors were returned on any page when passing through the official W3C Valida
   - [W3C Validator Game Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsniclasj.github.io%2Fvexillological-vexation%2Fvex-vex.html)
   - [W3C Validator Results Summary Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsniclasj.github.io%2Fvexillological-vexation%2Ffinished.html)
 
+### Semantic HTML Discussion
+
+I have intentionally decided not to use sections in my HTML files. The reason for this is that when I was utilising sections, the HTML validators referenced above were issuing warning regarding the lack of headings in my sections. Although I am aware that I should be utilising sections as opposed to divs in order to be to semantically correct, the presence of section headings would detract from the desired aesthetic of my game therefore I have opted to maintain the use of divs and explain my reasoning here.
+
 ### CSS
 
 No errors or warnings were found on any page when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsniclasj.github.io%2Fvexillological-vexation%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings) as shown in the screenshot below.
