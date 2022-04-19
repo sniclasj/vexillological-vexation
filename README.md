@@ -64,9 +64,9 @@ __Medium Screen and Below All Pages Wireframe__
 
 __Favicon__
 
-This image features on the browser tab for all pages.
+This image features on the browser tab for all pages. The favicon is a mini version of the waving flags gif utilised on buttons within the game.
 
-![Favicon](documentation/testing/sj-fitness-favicon.png)
+![Favicon](documentation/testing/vex-vex-favicon.png)
 
 __Landing Page__
 
