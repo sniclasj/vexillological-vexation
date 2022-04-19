@@ -190,10 +190,21 @@ Medium and Below
 
 - As a user, I want to be able to read about how to play the game before playing.
 - As a user, I want to be able to initiate the start of the game myself.
+
+![Landing Page](documentation/testing/vex-vex-chrome-desktop-landing-page.png)
+
 - As a user, I want to be able to intuitively know where to click to make my flag selection.
 - As a user, I want to be able to see my performance within the game e.g. how many questions have I got correct/incorrect so far.
-- As a user, I want to be able to avoid repetition of flags I have already guessed correctly.
+
+![Game Page](documentation/testing/vex-vex-chrome-desktop-game-page.png)
+
+- As a user, I want to be able to avoid repetition of flags I have already guessed correctly. Note: The screenshot below shows how correctly guessed flag IDs are removed from the original array of 50 and stores in a separate array called 'used flags'.
+
+![Repetition Avoidance](documentation/testing/vex-vex-console-showing-repetition-avoidance.png)
+
 - As a user, I want to be able to view the site on any device, so that I can see it on my phone, tablet, or desktop.
+
+![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up.png)
 
 ## Unfixed Bugs
 
