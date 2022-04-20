@@ -131,7 +131,23 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content 
 
-INSERT CODE CREDITS HERE.
+_Landing Page HTML (index.html)_
+
+- [Stack Overflow (Balus C): HTML Button Linking To New Page](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)
+
+_Game Page JS (vex-vex.js)_
+
+- [W3 Schools: Filtering JS Array](https://www.w3schools.com/jsref/jsref_filter.asp)
+- [Stack Overflow: Removing Specific Item From JS Array](https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array)
+- [W3 Schools: Changing Element IDs](https://www.w3schools.com/jsref/prop_html_id.asp)
+- [W3 Schools: Changing Element InnerHTML](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext)
+- [Stack Overflow: Pushing ID Of Clicked Element To Array (shamittomar)](https://stackoverflow.com/questions/4825295/onclick-to-get-the-id-of-the-clicked-button)
+- [Stack Overflow: Storing Game Value For Use On Another Page (Antoni)](https://stackoverflow.com/questions/47817325/storing-my-game-score-in-local-storage)
+- [Love2Dev: Using Splice to Remove Array Elements](https://love2dev.com/blog/javascript-remove-from-array/#remove-from-array-splice)
+
+_Game Page Testing (vex-vex.test.js)_
+
+- [Stack Overflow: Jest Matcher To One Of Two Values (jordrake)](https://stackoverflow.com/questions/51519041/jest-matcher-to-match-any-one-of-three-values)
 
 ### Media
 
