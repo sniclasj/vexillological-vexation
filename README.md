@@ -196,7 +196,7 @@ _Flag Images_
 - [Northern Ireland](https://en.wikipedia.org/wiki/Flag_of_Northern_Ireland)
 - [Norway](https://en.wikipedia.org/wiki/Flag_of_Norway)
 - [Panama](https://en.wikipedia.org/wiki/Flag_of_Panama)
-- [Samoa](https://en.wikipedia.org/wiki/Flag_of_Samoa))
+- [Samoa](https://en.wikipedia.org/wiki/Flag_of_Samoa)
 - [Scotland](https://en.wikipedia.org/wiki/Flag_of_Scotland)
 - [Senegal](https://en.wikipedia.org/wiki/Flag_of_Senegal)
 - [Seychelles](https://en.wikipedia.org/wiki/Flag_of_Seychelles)
