@@ -90,7 +90,11 @@ This page contains two clickable buttons, namely, 'Play Again' and 'No thanks...
 
 ### Features Left to Implement
 
-A future feature to implement would be COMPLETE LATER.
+Future features to implement would be as follows:
+- Increase the number of flags in the database e.g. increase to 100.
+- Remove the set number of questions and include a timer to get all of the flags correct.
+- Add a feature for users to save their high score for future comparison.
+- Add a continent selector option at the beginning so that users are only presented with flags from Europe for example.
 
 ## Technologies Used
 
