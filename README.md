@@ -164,7 +164,7 @@ _Flag Images_
 - [Bolivia](https://en.wikipedia.org/wiki/Flag_of_Bolivia)
 - [Brazil](https://en.wikipedia.org/wiki/Flag_of_Brazil)
 - [Canada](https://en.wikipedia.org/wiki/Flag_of_Canada)
-- [Cape Verde]()
+- [Cape Verde](https://en.wikipedia.org/wiki/Flag_of_Cape_Verde)
 - [Chile](https://en.wikipedia.org/wiki/Flag_of_Chile)
 - [Croatia](https://en.wikipedia.org/wiki/Flag_of_Croatia)
 - [Czech Republic](https://en.wikipedia.org/wiki/Flag_of_the_Czech_Republic)
