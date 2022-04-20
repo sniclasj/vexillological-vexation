@@ -105,6 +105,7 @@ Future features to implement would be as follows:
 - [amiresponsive](http://ami.responsivedesign.is/#) - used for the mockup image.
 - [HTML](https://en.wikipedia.org/wiki/HTML) - used to write the code for the website.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - used to write the code for the website.
+- [Jest](https://jestjs.io/) - used to test the functionality of JavaScript code.
 - [CSS](https://en.wikipedia.org/wiki/CSS) - used to style the website.
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) - used to create a grid structure for the website.
 
