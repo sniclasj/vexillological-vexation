@@ -149,6 +149,20 @@ No errors or warnings were found on any page when passing through the official [
 
 ![CSS Validator](documentation/testing/vex-vex-css-validation.png)
 
+### JavaScript
+
+_JS Hint Results: Landing Page_
+
+![JS Hint Landing Page]()
+
+_JS Hint Results: Game Page_
+
+![JS Hint Game Page]()
+
+_JS Hint Results: Finished Page_
+
+![JS Hint Finished Page]()
+
 ### Lighthouse
 
 __Test Results: Landing Page__
