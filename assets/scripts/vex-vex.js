@@ -138,6 +138,11 @@ document.getElementById("option2").addEventListener('click', function () {
     checkAnswer();
 });
 
+// Lets the user click on the heading 'Vexillological Vexation' to return to the landing page in-game.
+document.getElementById("in-game-heading").addEventListener('click', function () {
+    location.href = 'index.html';
+});
+
 // module.exports is required to export the objects and functions to the Jest testing file.
 // The if statement prevents this from logging an error in the browser console.
 // Code Credit: https://stackoverflow.com/a/68671391 Kapil Sinha
