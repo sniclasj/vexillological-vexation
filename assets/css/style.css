@@ -5,6 +5,11 @@ body {
     background-color: rgb(80, 74, 75) !important;
 }
 
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+
 /* Styles for landing page (index.html) */
 .landing-page-component {
     background-color: rgb(131, 12, 32);
