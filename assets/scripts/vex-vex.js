@@ -99,11 +99,11 @@ function checkAnswer() {
         // This is to prevent accidental score incrementation in the short period of time where placeholder images are in place instead of flag images.
         // The ids of the placeholder images are "option1" and "option2" respectively so if these are clicked, the code below ensures the scores do not accidentally increment.
     } else if (game.playerguess == "option1") {
-        game.correctscore === 0;
-        game.incorrectscore === 0;
+        game.correctscore = 0;
+        game.incorrectscore = 0;
     } else if (game.playerguess == "option2") {
-        game.correctscore === 0;
-        game.incorrectscore === 0;
+        game.correctscore = 0;
+        game.incorrectscore = 0;
         // If game.playerguess != game.question:
         // game.incorrectscore increments by 1 and the value of the html element with id "incorrect" is updated to the new value.
     } else if (game.playerguess != game.question) {
