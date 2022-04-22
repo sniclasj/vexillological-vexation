@@ -128,8 +128,16 @@ __Safari (Mobile) Screenshots__
 
 No errors were returned on any page when passing through the official W3C Validator as shown in the links below.
   - [W3C Validator Landing Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsniclasj.github.io%2Fvexillological-vexation%2Findex.html)
+
+  ![Landing Page Validation](documentation/testing/vex-vex-landing-page-validation.png)
+
   - [W3C Validator Game Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsniclasj.github.io%2Fvexillological-vexation%2Fvex-vex.html)
+
+  ![Game Page Validation](documentation/testing/vex-vex-game-page-validation.png)
+
   - [W3C Validator Results Summary Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsniclasj.github.io%2Fvexillological-vexation%2Ffinished.html)
+
+  ![Finished Page Validdation](documentation/testing/vex-vex-finished-page-validation.png)
 
 ### Semantic HTML Discussion
 
