@@ -232,6 +232,9 @@ _Game Page Testing (vex-vex.test.js)_
 
 - [Stack Overflow: Jest Matcher To One Of Two Values (jordrake)](https://stackoverflow.com/questions/51519041/jest-matcher-to-match-any-one-of-three-values)
 
+_README (README.md)_
+- [Editor.md Line 213: Creating A Markdown Table](https://pandao.github.io/editor.md/en.html)
+
 ### Media
 
 #### Flag Image Table
