@@ -92,10 +92,6 @@ function checkAnswer() {
         // Splice code credit: https://love2dev.com/blog/javascript-remove-from-array/#remove-from-array-splice
         game.database.flags.splice(indexQ, 1);
         game.database.countries.splice(indexQ, 1);
-        // game.database.flags is logged to the console as a development check.
-        // game.usedflags is logged to the console as a development check.
-        console.log(game.database.flags);
-        console.log(game.usedflags);
         // game.correctscore increments by 1 and the value of the html element with id "correct" is updated to the new value.
         game.correctscore++;
         document.getElementById("correct").innerHTML = game.correctscore;
