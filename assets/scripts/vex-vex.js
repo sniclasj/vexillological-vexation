@@ -138,8 +138,11 @@ document.getElementById("option2").addEventListener('click', function () {
     checkAnswer();
 });
 
-// Exports the game functions as described in the lectures although this code does cause a console error
-module.exports = {
+// module.exports is required to export the objects and functions to the Jest testing file.
+// The if statement prevents this from logging an error in the browser console.
+// Code Credit: https://stackoverflow.com/a/68671391 Kapil Sinha
+
+if (typeof module !== "undefined") module.exports = {
     game,
     optionGen,
     changeIds,
