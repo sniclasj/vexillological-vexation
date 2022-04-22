@@ -62,31 +62,108 @@ __Medium Screen and Below All Pages Wireframe__
 
 ### Existing Features
 
-__Favicon__
+### Favicon
 
 This image features on the browser tab for all pages. The favicon is a mini version of the waving flags gif utilised on buttons within the game.
 
 ![Favicon](documentation/testing/vex-vex-favicon.png)
 
-__Landing Page__
-
-The home/landing page contains a the title of the game, a box with a heading of 'How to Play' and a box below with specific game instructions.
-The final element on the landing page is a large start button which contains an animation of multiple flags fluttering on repeat. This is to draw the user's attention to the start button to make it clear that this is how the game can be initiated.
+### Landing Page
 
 ![Landing Page](documentation/testing/vex-vex-landing-page.png)
 
-__Game Page__
+#### Landing Page: Game Title and Explanation
 
-The top of the game page maintains visibility of the game's title. Boxes displaying tallies for correct and incorrect answers are located below the title. Beneath the score tally boxes are boxes displaying the question number and the name of the country whose flag must be identified. Finally, two clickable buttons are located below the box containing the country name, and it is these buttons which display the flag image options for the user to choose between.
+The home/landing page contains a the title of the game, a box with a heading of 'How to Play' and a box below with specific game instructions.
+
+#### Landing Page: Start Button
+
+The final element on the landing page is a large start button which contains an animation of multiple flags fluttering on repeat. This is to draw the user's attention to the start button to make it clear that this is how the game can be initiated. The clickable start button launches the game by directing the user to the game page (vex-vex.html). This is achieved using code below:
+```javascript
+<// Lets the user initiate a game via a click on the 'start' button.
+document.getElementById("landing-page-start").addEventListener('click', function () {
+    location.href = 'vex-vex.html';
+});>
+```
+
+### Game Page
 
 ![Game Page](documentation/testing/vex-vex-game-page.png)
 
-__Results Summary Page__
+#### Title Hyperlink
 
-Once the user has answered their 20th question, the results summary page will be displayed. This page congratulates the user on finishing the game and summarises the user's score numerically e.g. 12/20 and in a percentage format e.g. 60%.
-This page contains two clickable buttons, namely, 'Play Again' and 'No thanks...'. These buttons have the sane format as the 'Start' button located on the landing page to maintain consistency. If the 'Play Again' button is clicked, the user will be directed to a new round of questions. If the 'No thanks...' button is clicked, the user will be directed back to the landing page where they can start a new game whenever they are ready.
+The top of the game page maintains visibility of the game's title. The title also serves as a hyperlink to return to the landing page.
+
+#### Correct/Incorrect Score Tallies
+
+Boxes displaying tallies for correct and incorrect answers are located below the title. These increment by 1 respectively depending on whether the user has guessed the flag correctly/incorrectly.
+
+#### Question Number and Question Boxes
+
+Beneath the score tally boxes are boxes displaying the question number and the name of the country whose flag must be identified. The question number increments by 1 after every guess where as the name of the country will be the name of one of the flags displayed.
+
+#### Clickable Flag Image Options
+
+Finally, two clickable buttons are located below the box containing the country name, and it is these buttons which display the flag image options for the user to choose between.
+
+#### Randomised Flag Selection
+
+The flags displayed for each question are selected randomly from a database of 50 flags. In addition to this, the code is written to ensure that the same flag cannot be displayed for both options. The code below illustrates how this is achieved:
+
+```javascript
+// Function to randomly generate values for game.option1 and 
+// game.option2 from the game.database.flags array.
+function optionGen() {
+    game.questionnum++;
+    document.getElementById("question-num").innerHTML = `Question Number: ` + (game.questionnum);
+    game.option1 = (game.database.flags[Math.floor(Math.random() * game.database.flags.length)]);
+
+    //Filters game.option1 value out of game.database.flags array
+    //and selects game.option2 value from filtered array. This
+    //ensures that game.option1 != game.option2.
+    //Credit: https://www.w3schools.com/jsref/jsref_filter.asp
+    //Credit: https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array
+    let value = game.option1;
+    let arr = game.database.flags;
+    let databaseFilt = arr.filter(function (item) {
+        return item !== value;
+    });
+    //Generates game.option2 value from the filtered dabase which does
+    //not contain the generated game.option1 value.
+    game.option2 = (databaseFilt[Math.floor(Math.random() * databaseFilt.length)]);
+    //Generates question value which is either game.option1 or game.option2.
+    game.question = [game.option1, game.option2][Math.round(Math.random())];
+}
+```
+
+#### Local Storage Web API
+
+In order to display user's results in the 'Results Summary' page, the ability to preserve the value of the user's 'correct' score tally was required. In order to do this, local storage was used as part of the endGame function. The code for this is shown below:
+
+```javascript
+// Ends the game and directs user to finished.html if the sum of game.correctscore and game.incorrectscore is equal to 20.
+// Changes html text of elements with ids "question-num" and "question" to 'Game Over!' and 'Thanks for Playing!' respectively.
+// Stores the number of correct answers as "result"to be called upon on a different page.
+function endGame() {
+    if (game.correctscore + game.incorrectscore == 20) {
+        document.getElementById("question-num").innerHTML = `Game Over!`
+        document.getElementById("question").innerHTML = `Thanks For Playing!`
+        // Code Credit: https://stackoverflow.com/questions/47817325/storing-my-game-score-in-local-storage Antoni
+        localStorage.setItem("result", document.getElementById("correct").innerHTML);
+        location.href = 'finished.html';
+    }
+}
+```
+
+### Results Summary Page
 
 ![Results Summary](documentation/testing/vex-vex-results-summary-page.png)
+
+#### Congratulations and Result Summary
+Once the user has answered their 20th question, the results summary page will be displayed. This page congratulates the user on finishing the game and summarises the user's score numerically e.g. 12/20 and in a percentage format e.g. 60%.
+
+#### 'Play Again' and 'No thanks...' Buttons
+This page contains two clickable buttons, namely, 'Play Again' and 'No thanks...'. These buttons have the sane format as the 'Start' button located on the landing page to maintain consistency. If the 'Play Again' button is clicked, the user will be directed to a new round of questions. If the 'No thanks...' button is clicked, the user will be directed back to the landing page where they can start a new game whenever they are ready.
 
 ### Features Left to Implement
 
