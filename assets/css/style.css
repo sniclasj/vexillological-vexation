@@ -44,6 +44,12 @@ body {
     margin: 10px;
 }
 
+#in-game-heading:hover {
+    background-color: rgba(255, 233, 0);
+    color: rgb(131, 12, 32);
+    cursor: pointer;
+}
+
 button {
     border: 2px solid rgba(255, 233, 0);
     border-radius: 15px 15px 15px 15px !important;
