@@ -73,8 +73,8 @@ function resetGuess() {
 // Stores the number of correct answers as "result"to be called upon on a different page.
 function endGame() {
     if (game.correctscore + game.incorrectscore == 20) {
-        document.getElementById("question-num").innerHTML = `Game Over!`
-        document.getElementById("question").innerHTML = `Thanks For Playing!`
+        document.getElementById("question-num").innerHTML = `Game Over!`;
+        document.getElementById("question").innerHTML = `Thanks For Playing!`;
         // Code Credit: https://stackoverflow.com/questions/47817325/storing-my-game-score-in-local-storage Antoni
         localStorage.setItem("result", document.getElementById("correct").innerHTML);
         location.href = 'finished.html';
