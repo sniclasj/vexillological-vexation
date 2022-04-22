@@ -185,6 +185,7 @@ Future features to implement would be as follows:
 - [Jest](https://jestjs.io/) - used to test the functionality of JavaScript code.
 - [CSS](https://en.wikipedia.org/wiki/CSS) - used to style the website.
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) - used to create a grid structure for the website.
+- [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - used to store the user's correct score value from vex-vex.js so that it could be recalled in finished.js.
 
 ## Testing
 
