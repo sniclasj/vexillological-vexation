@@ -227,7 +227,7 @@ _Game Page JS (vex-vex.js)_
 - [Stack Overflow: Pushing ID Of Clicked Element To Array (shamittomar)](https://stackoverflow.com/questions/4825295/onclick-to-get-the-id-of-the-clicked-button)
 - [Stack Overflow: Storing Game Value For Use On Another Page (Antoni)](https://stackoverflow.com/questions/47817325/storing-my-game-score-in-local-storage)
 - [Love2Dev: Using Splice to Remove Array Elements](https://love2dev.com/blog/javascript-remove-from-array/#remove-from-array-splice)
-- [Stack Overflow: Preventing Module Console Error (Kapil Sinah)]:(https://stackoverflow.com/questions/63752210/javascript-module-require-is-not-defined/68671391#68671391)
+- [Stack Overflow: Preventing Module Console Error (Kapil Sinah)](https://stackoverflow.com/questions/63752210/javascript-module-require-is-not-defined/68671391#68671391)
 
 _Game Page Testing (vex-vex.test.js)_
 
