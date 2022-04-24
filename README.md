@@ -304,6 +304,8 @@ if (typeof module !== "undefined") module.exports = {
 };
 ```
 
+- Now that these steps have been undertaken, further tests can be written and be expected to fail initially. JS code can then be added to get the tests to pass as part of the Red, Green refactor process.
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
