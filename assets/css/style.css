@@ -73,6 +73,25 @@ button {
     border-radius: 15px 15px 15px 15px !important;
 }
 
+.reset-game-button {
+    background: url(../images/all-flags.gif) center no-repeat;
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgba(255, 233, 0);
+    border-radius: 15px 15px 15px 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    font-family: 'Rakkas', cursive;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.reset-game-button:hover {
+    color: rgb(255, 233, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    font-family: 'Rakkas', cursive !important;
+}
+
 /* Flag image styles */
 
 /* Flag image: https://4.bp.blogspot.com/-wfvG0o9TyNU/W-MMqKEYb2I/AAAAAAAAuCY/J_wkatKjz3s6_ncpl3shRK5mC07CzgiawCLcBGAs/s1600/all_country_flags_in_one_flag.gif */
