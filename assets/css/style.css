@@ -19,6 +19,15 @@ p.promo {
     margin-bottom: 0;
 }
 
+a {
+    text-decoration: none !important;
+    color: rgba(255, 233, 0) !important;
+}
+
+a:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
 footer {
     font-family: 'Rakkas', cursive;
     color: rgba(255, 233, 0);
