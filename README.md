@@ -68,6 +68,12 @@ This image features on the browser tab for all pages. The favicon is a mini vers
 
 ![Favicon](documentation/testing/vex-vex-favicon.png)
 
+### Footer
+
+The footer is present on all pages and showcases that I developed the game. My name (Sion Jones) is a hyperlink which opens my GitHub page in a new tab.
+
+![Footer](documentation/testing/vex-vex-footer.png)
+
 ### Landing Page
 
 ![Landing Page](documentation/testing/vex-vex-landing-page.png)
@@ -92,7 +98,9 @@ document.getElementById("landing-page-start").addEventListener('click', function
 
 #### Title Hyperlink
 
-The top of the game page maintains visibility of the game's title. The title also serves as a hyperlink to return to the landing page.
+The top of the game page maintains visibility of the game's title. The title also serves as a hyperlink to return to the landing page in-game. The screenshot below shows the colours of the heading are inverted when the user hovers over the element to illustrate that it serves as a link out of the game.
+
+![Clickable Heading](documentation/testing/vex-vex-game-page-clickable-header.png)
 
 #### Correct/Incorrect Score Tallies
 
@@ -154,6 +162,12 @@ function endGame() {
     }
 }
 ```
+
+#### Reset Button
+
+The reset button is present in-game so that a user can start the game again in-game. This would be useful if a user has made many errors and just wants to start again.
+
+[Reset Button](documentation/testing/vex-vex-game-page-reset-button.png)
 
 ### Results Summary Page
 
