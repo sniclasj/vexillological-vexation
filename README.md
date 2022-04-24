@@ -167,7 +167,7 @@ function endGame() {
 
 The reset button is present in-game so that a user can start the game again in-game. This would be useful if a user has made many errors and just wants to start again.
 
-[Reset Button](documentation/testing/vex-vex-game-page-reset-button.png)
+![Reset Button](documentation/testing/vex-vex-game-page-reset-button.png)
 
 ### Results Summary Page
 
