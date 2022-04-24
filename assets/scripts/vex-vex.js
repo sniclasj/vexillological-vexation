@@ -143,6 +143,11 @@ document.getElementById("in-game-heading").addEventListener('click', function ()
     location.href = 'index.html';
 });
 
+// Lets the user click on the reset button a to restart the game in-game.
+document.getElementById("reset-button").addEventListener('click', function () {
+    location.href = 'vex-vex.html';
+});
+
 // module.exports is required to export the objects and functions to the Jest testing file.
 // The if statement prevents this from logging an error in the browser console.
 // Code Credit: https://stackoverflow.com/a/68671391 Kapil Sinha
