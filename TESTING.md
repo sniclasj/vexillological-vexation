@@ -234,8 +234,4 @@ Medium and Below
 
 ## Unfixed Bugs
 
-- Console error module is not defined.
-![Console Error](documentation/testing/vex-vex-console-reference-error.png)
-
-- When 11/20 = 55% is scored, the percentage calculation shows decimal places. This only occurs on this specific score.
-![55% Error](documentation/testing/vex-vex-fifty-five-percent-bug.png)
+There are no unfixed bugs that I am aware of within the game.
