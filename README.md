@@ -191,15 +191,6 @@ Future features to implement would be as follows:
 
 To view all testing documentation, please refer to [TESTING.md](TESTING.md)
 
-## Deployment
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Main Branch
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - [Vexillological Vexation!](https://sniclasj.github.io/vexillological-vexation/)
-
 ### Installing The JEST Testing Suite
 
 In order to build the game using test driven development, the JEST testing suite needs to be installed. The following section will detail how to achieve this.
@@ -312,6 +303,15 @@ if (typeof module !== "undefined") module.exports = {
     game,
 };
 ```
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - [Vexillological Vexation!](https://sniclasj.github.io/vexillological-vexation/)
 
 ### Local Deployment
 
