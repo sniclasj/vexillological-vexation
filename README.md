@@ -288,7 +288,7 @@ let game = {
 ```
 
 - Finally, there are two more important blocks of code to include to ensure that the test suite functions correctly.
-- The file being tested must be imported into the testing file therefore constants must be declared in the testing (vex-vex.test.js) as shown below. Note: Curly braces are used as eventually more objects and functions will be being imported.
+- Firstly, the file being tested must be imported into the testing file therefore constants must be declared in the testing (vex-vex.test.js) as shown below. Note: Curly braces are used as eventually more objects and functions will be being imported.
 
 ```javascript
 const {
@@ -296,7 +296,7 @@ const {
 } = require("../vex-vex");
 ```
 
-- In this instance, the game object referred to in the test must be exported to our testing file using module exports as shown below. Note: Curly braces are used as eventually more objects and functions will be being exported.
+- Secondly, in this instance, the game object referred to in the test must be exported to our testing file using module exports as shown below. Note: Curly braces are used as eventually more objects and functions will be being exported.
 
 ```javascript
 if (typeof module !== "undefined") module.exports = {
