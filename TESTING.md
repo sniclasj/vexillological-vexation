@@ -153,7 +153,7 @@ No errors or warnings were found on any page when passing through the official [
 
 _JS Hint Results: Landing Page_
 
-![JS Hint Landing Page]()
+![JS Hint Landing Page](documentation/testing/vex-vex-js-hint-landing-page.png)
 
 _JS Hint Results: Game Page_
 
@@ -161,7 +161,7 @@ _JS Hint Results: Game Page_
 
 _JS Hint Results: Finished Page_
 
-![JS Hint Finished Page]()
+![JS Hint Finished Page](documentation/testing/vex-vex-js-hint-results-summary-page.png)
 
 ### Lighthouse
 
