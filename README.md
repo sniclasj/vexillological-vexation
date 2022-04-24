@@ -200,6 +200,30 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here - [Vexillological Vexation!](https://sniclasj.github.io/vexillological-vexation/)
 
+### Installing The JEST Testing Suite
+
+In order to build the game using test driven development, the JEST testing suite needs to be installed. The following section will detail how to achieve this.
+Note: Screenshots have been taken from the instructional video on the [Code Institute LMS](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JT101+2021_T1/courseware/6175d249ea924b1b8d315ba8e7bb1626/8639190f4a6c437784788b882f357b1d/).
+
+- Type _npm init_ into the console.
+
+![Screenshot Of npm-init](documentation/testing/jest-npm-init.png)
+
+- All defaults can be kept except _jest_ must be input as the test command.
+
+![Screenshot Of Jest As Test Command](documentation/testing/jest-test-command-jest.png)
+
+- Once the remaining defauls have been selected, the console will display the below and a command line must be input to install JEST.
+
+![Screenshot Of Install Command Entry](documentation/testing/jest-install-command-entry.png)
+
+- The command line to input is _npm install jest --save-dev_ as shown below.
+
+![Screenshot Of Install Command Line](documentation/testing/jest-install-command-line.png)
+
+- JEST is now installed and the command line _npm test_ can be used to run tests.
+
+
 ### Local Deployment
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
