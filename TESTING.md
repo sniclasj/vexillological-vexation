@@ -84,29 +84,29 @@ __Chrome Screenshots__
 
 - Chrome Desktop Landing Page
 
-![Landing Page](documentation/testing/vex-vex-chrome-desktop-landing-page.png)
+![Landing Page](documentation/testing/vex-vex-landing-page-updated.png)
 
 - Chrome Desktop Game Page
 
-![Game Page](documentation/testing/vex-vex-chrome-desktop-game-page.png)
+![Game Page](documentation/testing/vex-vex-game-page-updated.png)
 
 - Chrome Desktop Results Summary Page
 
-![Results Summary Page](documentation/testing/vex-vex-chrome-desktop-results-summary-page.png)
+![Results Summary Page](documentation/testing/vex-vex-results-summary-page-updated.png)
 
 __Edge Screenshots__
 
 - Edge Desktop Landing Page
 
-![Landing Page](documentation/testing/vex-vex-edge-desktop-landing-page.png)
+![Landing Page](documentation/testing/vex-vex-edge-desktop-landing-page-updated.png)
 
 - Edge Desktop Game Page
 
-![Game Page](documentation/testing/vex-vex-edge-desktop-game-page.png)
+![Game Page](documentation/testing/vex-vex-edge-desktop-game-page-updated.png)
 
 - Edge Desktop Results Summary Page
 
-![Results Summary Page](documentation/testing/vex-vex-edge-desktop-results-summary-page.png)
+![Results Summary Page](documentation/testing/vex-vex-edge-desktop-results-summary-page-updated.png)
 
 __Safari (Mobile) Screenshots__
 
@@ -186,43 +186,45 @@ __Landing Page__
 
 Large
 
-![Landing Page Large](documentation/testing/vex-vex-responsiveness-landing-page-large.png)
+![Landing Page Large](documentation/testing/vex-vex-landing-page-updated.png)
 
 Medium and Below
 
-![Landing Page Medium](documentation/testing/vex-vex-responsiveness-landing-page-medium-and-below.png)
+![Landing Page Medium](documentation/testing/vex-vex-responsiveness-landing-page-medium-and-below-updated.png)
 
 __Game Page__
 
 Large
 
-![Game Page Large](documentation/testing/vex-vex-responsiveness-game-page-large.png)
+![Game Page Large](documentation/testing/vex-vex-game-page-updated.png)
 
 Medium and Below
 
-![Game Page Medium](documentation/testing/vex-vex-responsiveness-game-page-medium-and-below.png)
+![Game Page Medium Top](documentation/testing/vex-vex-responsiveness-game-page-medium-and-below-updated-top.png)
+
+![Game Page Medium Bottom](documentation/testing/vex-vex-responsiveness-game-page-medium-and-below-updated-bottom.png)
 
 __Results Summary Page__
 
 Large
 
-![Results Summary Large](documentation/testing/vex-vex-responsiveness-results-summary-page-large.png)
+![Results Summary Large](documentation/testing/vex-vex-results-summary-page-updated.png)
 
 Medium and Below
 
-![Results Summary Medium](documentation/testing/vex-vex-responsiveness-results-summary-page-medium-and-below.png)
+![Results Summary Medium](documentation/testing/vex-vex-responsiveness-results-summary-page-medium-and-below-updated.png)
 
 ## User Story Tests
 
 - As a user, I want to be able to read about how to play the game before playing.
 - As a user, I want to be able to initiate the start of the game myself.
 
-![Landing Page](documentation/testing/vex-vex-chrome-desktop-landing-page.png)
+![Landing Page](documentation/testing/vex-vex-landing-page-updated.png)
 
 - As a user, I want to be able to intuitively know where to click to make my flag selection.
 - As a user, I want to be able to see my performance within the game e.g. how many questions have I got correct/incorrect so far.
 
-![Game Page](documentation/testing/vex-vex-chrome-desktop-game-page.png)
+![Game Page](documentation/testing/vex-vex-game-page-updated.png)
 
 - As a user, I want to be able to avoid repetition of flags I have already guessed correctly. Note: The screenshot below shows how correctly guessed flag IDs are removed from the original array of 50 and stored in a separate array called 'used flags'.
 
@@ -230,7 +232,7 @@ Medium and Below
 
 - As a user, I want to be able to view the site on any device, so that I can see it on my phone, tablet, or desktop.
 
-![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up.png)
+![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up-updated.png)
 
 ## Unfixed Bugs
 
