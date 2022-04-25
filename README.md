@@ -12,6 +12,9 @@
 - As a user, I want to be able to see my performance within the game e.g. how many questions have I got correct/incorrect so far.
 - As a user, I want to be able to avoid repetition of flags I have already guessed correctly.
 - As a user, I want to be able to view the site on any device, so that I can see it on my phone, tablet, or desktop.
+- As a user, I want to be able to restart the game if I have made too many mistakes.
+- As a user, I want to be able to navigate back to the landing page in-game.
+- As a user, I want to be able to learn more about the person who developed the game.
 
 ## UX
 
