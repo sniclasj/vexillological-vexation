@@ -274,6 +274,22 @@ _JS Hint Results: Game Page_
 
 ![JS Hint Game Page](documentation/testing/vex-vex-js-hint-game-page.png)
 
+The _undefined variable_ of _module_ shown in the JS Hint screenshot is required to export the objects and functions to the Jest testing file. The following code prevents this causing an error in the console. This JS Hint 'warning' can be ignored in this context.
+
+```javascript
+if (typeof module !== "undefined") module.exports = {
+    game,
+    optionGen,
+    changeIds,
+    revertIds,
+    playerGuess,
+    resetGuess,
+    checkAnswer,
+    endGame,
+};
+```
+
+
 _JS Hint Results: Finished Page_
 
 ![JS Hint Finished Page](documentation/testing/vex-vex-js-hint-results-summary-page.png)
