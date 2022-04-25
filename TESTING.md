@@ -381,5 +381,6 @@ Medium and Below
 
 The only unfixed bug I have been unable to resolve is displayed in the image below.
 The 'Reset!' button text is slightly off-centre on the Safari Mobile Browser screen. This does not occur when testing responsiveness for devices with screen sizes of medium and below in browsers such as Chrome and Edge.
+I attempted to resolve this by adding an explicit padding of zero to the button's style as outlined [here](https://stackoverflow.com/questions/44941161/safari-on-ios-cant-render-button-text-center-aligned) on Stack OVerflow, however this did not resolve my issue.
 
 ![Game Page Bottom](documentation/testing/vex-vex-safari-mobile-game-page-updated-bottom.png)
