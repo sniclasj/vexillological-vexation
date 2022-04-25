@@ -236,6 +236,18 @@ Medium and Below
 
 ![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up-updated.png)
 
+- As a user, I want to be able to restart the game if I have made too many mistakes.
+
+![Reset Button](documentation/testing/vex-vex-game-page-reset-button.png)
+
+- As a user, I want to be able to navigate back to the landing page in-game.
+
+![Clickable Heading](documentation/testing/vex-vex-game-page-clickable-header.png)
+
+- As a user, I want to be able to learn more about the person who developed the game.
+
+![Footer](documentation/testing/vex-vex-footer.png)
+
 ## Unfixed Bugs
 
 There are no unfixed bugs that I am aware of within the game.
