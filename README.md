@@ -2,7 +2,7 @@
 
 'Vexillological Vexation!' is a web based flag guessing game. Players are presented with a question along with images of two different flags however only one of the flag images correctly matches the country in the question. The player must then click on the flag they believe to be correct. If they have selected the correct flag, the correct score tally will increase by one. If they have selected the incorrect flag, the incorrect score tally will increase by one. The game ends after 20 questions and players are shown how many questions out of 20 they got correct in a numerical and percentage format. The game is aimed all ages.
 
-![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up.png)
+![Responsive Mockup](documentation/testing/vex-vex-responsive-mock-up-updated.png)
 
 ## User Stories
 
@@ -76,7 +76,7 @@ The footer is present on all pages and showcases that I developed the game. My n
 
 ### Landing Page
 
-![Landing Page](documentation/testing/vex-vex-landing-page.png)
+![Landing Page](documentation/testing/vex-vex-landing-page-updated.png)
 
 #### Landing Page: Game Title and Explanation
 
@@ -94,7 +94,7 @@ document.getElementById("landing-page-start").addEventListener('click', function
 
 ### Game Page
 
-![Game Page](documentation/testing/vex-vex-game-page.png)
+![Game Page](documentation/testing/vex-vex-game-page-updated.png)
 
 #### Title Hyperlink
 
@@ -171,7 +171,7 @@ The reset button is present in-game so that a user can start the game again in-g
 
 ### Results Summary Page
 
-![Results Summary](documentation/testing/vex-vex-results-summary-page.png)
+![Results Summary](documentation/testing/vex-vex-results-summary-page-updated.png)
 
 #### Congratulations and Result Summary
 Once the user has answered their 20th question, the results summary page will be displayed. This page congratulates the user on finishing the game and summarises the user's score numerically e.g. 12/20 and in a percentage format e.g. 60%.
