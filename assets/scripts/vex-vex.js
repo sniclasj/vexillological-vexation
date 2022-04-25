@@ -40,21 +40,30 @@ function optionGen() {
     game.question = [game.option1, game.option2][Math.round(Math.random())];
 }
 
-// Replaces html elements with ids option1 and option2 with the randomly generated ids game.option1 and game.option2.
+// Replaces html elements with ids option1 and option2 with the randomly generated flag image background ids game.option1 and game.option2.
 function changeIds() {
     // Credit: https://www.w3schools.com/jsref/prop_html_id.asp
-    document.getElementById("option1").id = game.option1;
-    document.getElementById("option2").id = game.option2;
+
+    let flag1 = document.getElementById("option1");
+    let flag2 = document.getElementById("option2");
+    flag1.style.background = `url(assets/images/${game.option1}-flag.png) center no-repeat`;
+    flag2.style.background = `url(assets/images/${game.option2}-flag.png) center no-repeat`;
+    flag1.id = game.option1;
+    flag2.id = game.option2;
     // Identifies index of country name linked to random flag id used for game.question and publishes it into the innerHTML text of html element with id "question".
     // Credit: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_textcontent_innerhtml_innertext
     let indexQ = game.database.flags.indexOf(game.question);
     document.getElementById("question").innerHTML = `Which flag belongs to...` + (game.database.countries[indexQ]) + `?`;
 }
 
-// Changes the ids of html elements with ids game.option1 and game.option2 back to option1 and option2 respectively.
+// Changes the flag image background ids of html elements with ids game.option1 and game.option2 back to option1 and option2 respectively.
 function revertIds() {
-    document.getElementById(game.option1).id = "option1";
-    document.getElementById(game.option2).id = "option2";
+    let opt1 = document.getElementById(game.option1);
+    let opt2 = document.getElementById(game.option2);
+    opt1.style.background = `url(assets/images/all-flags.gif) center no-repeat`;
+    opt2.style.background = `url(assets/images/all-flags.gif) center no-repeat`;
+    opt1.id = "option1";
+    opt2.id = "option2";
 }
 
 // Pushes the id of the clicked element into game.playerguess.
