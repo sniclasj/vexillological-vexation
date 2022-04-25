@@ -363,4 +363,7 @@ Medium and Below
 
 ## Unfixed Bugs
 
-There are no unfixed bugs that I am aware of within the game.
+The only unfixed bug I have been unable to resolve is displayed in the image below.
+The 'Reset!' button text is slightly off-centre on the Safari Mobile Browser screen. This does not occur when testing responsiveness for desktop browsers such as Chrome and Edge.
+
+![Game Page Bottom](documentation/testing/vex-vex-safari-mobile-game-page-updated-bottom.png)
