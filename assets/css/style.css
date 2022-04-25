@@ -98,14 +98,12 @@ button {
     font-family: 'Rakkas', cursive;
     margin: 10px;
     font-size: 20px;
-    padding: 0;
 }
 
 .reset-game-button:hover {
     color: rgb(255, 233, 0);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
     font-family: 'Rakkas', cursive !important;
-    padding: 0;
 }
 
 /* Flag image styles */
