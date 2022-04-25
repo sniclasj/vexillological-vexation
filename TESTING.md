@@ -112,15 +112,17 @@ __Safari (Mobile) Screenshots__
 
 - Safari Mobile Landing Page
 
-![Landing Page](documentation/testing/vex-vex-safari-mobile-landing-page.png)
+![Landing Page](documentation/testing/vex-vex-safari-mobile-landing-page-updated.png)
 
 - Safari Mobile Game Page
 
-![Game Page](documentation/testing/vex-vex-safari-mobile-game-page.png)
+![Game Page Top](documentation/testing/vex-vex-safari-mobile-game-page-updated-top.png)
+
+![Game Page Bottom](documentation/testing/vex-vex-safari-mobile-game-page-updated-bottom.png)
 
 - Safari Mobile Results Summary Page
 
-![Results Summary Page](documentation/testing/vex-vex-safari-mobile-results-summary-page.png)
+![Results Summary Page](documentation/testing/vex-vex-safari-mobile-results-summary-page-updated.png)
 
 ## Code Validation
 
