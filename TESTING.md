@@ -272,7 +272,7 @@ _JS Hint Results: Landing Page_
 
 _JS Hint Results: Game Page_
 
-![JS Hint Game Page]()
+![JS Hint Game Page](documentation/testing/vex-vex-js-hint-game-page.png)
 
 _JS Hint Results: Finished Page_
 
