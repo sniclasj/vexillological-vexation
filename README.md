@@ -235,6 +235,10 @@ _Landing Page HTML (index.html)_
 
 - [Stack Overflow (Balus C): HTML Button Linking To New Page](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link)
 
+_Game Page HTML (vex-vex.html)_
+
+- [Stack Overflow (Joke_Sense10): Prevent Use Of Browser BAck Button To Navigate Back To Previous Page](https://stackoverflow.com/questions/19926641/how-to-disable-the-back-button-in-the-browser-using-javascript)
+
 _Game Page JS (vex-vex.js)_
 
 - [W3 Schools: Filtering JS Array](https://www.w3schools.com/jsref/jsref_filter.asp)
