@@ -495,8 +495,34 @@ Medium and Below
 
 ## Unfixed Bugs
 
-The only unfixed bug I have been unable to resolve is displayed in the image below.
+The unfixed bugs I have been unable to resolve are discussed below.
+
+### Reset Button Misalignment on Mobile Safari Browser
+
 The 'Reset!' button text is slightly off-centre on the Safari Mobile Browser screen. This does not occur when testing responsiveness for devices with screen sizes of medium and below in browsers such as Chrome and Edge.
 I attempted to resolve this by adding an explicit padding of zero to the button's style as outlined [here](https://stackoverflow.com/questions/44941161/safari-on-ios-cant-render-button-text-center-aligned) on Stack Overflow, however this did not resolve my issue.
 
 ![Game Page Bottom](documentation/testing/vex-vex-safari-mobile-game-page-updated-bottom.png)
+
+### Workaround To Prevent Back Button Usage
+
+This isn't strictly a bug but I would like ot highlight it regardless.
+
+Prior to implementing the below code, use of the browser's back button on finished.html would break the game as it was possible for the user to navigate back to vex-vex.html and continue selecting flags beyoned the limit of 20. When I noticed this, I implemented the below code in the head section of vex-vex.html to stop this occurring.
+
+This has solved the problem and prevents the game from breaking, however I am highlighting it in this section as it is a 'workaround' and I am certain that given more time, I would be able to devise a more robust solution.
+
+```html
+    <!-- Prevents users navigating 'back' from finished.html to vex-vex.html -->
+    <!-- Code Credit: https://stackoverflow.com/questions/19926641/how-to-disable-the-back-button-in-the-browser-using-javascript -->
+    <script>
+        function preventBack() {
+            window.history.forward();
+        }
+    
+        setTimeout("preventBack()", 0);
+        window.onunload = function() {
+            null
+        };
+    </script>
+```
