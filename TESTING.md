@@ -292,6 +292,7 @@ When I commented this code out before running the tests, the following results a
 ![Tests Passing](documentation/testing/vex-vex-tests-passed.png)
 
 ![Test Coverage Report](documentation/testing/vex-vex-jest-coverage.png)
+
 Note: To obtain a coverage report, the following must be enterted into the console: _npm test -- --coverage_.
 
 Unfortunately, this code is essential to the functionality of the game so it cannot be removed from the vex-vex.js file permanently.
