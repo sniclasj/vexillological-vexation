@@ -84,6 +84,14 @@ function endGame() {
     if (game.correctscore + game.incorrectscore == 20) {
         document.getElementById("question-num").innerHTML = `Game Over!`;
         document.getElementById("question").innerHTML = `Thanks For Playing!`;
+        let opta = document.getElementById(game.option1);
+        let optb = document.getElementById(game.option2);
+        opta.style.background = `url(assets/images/all-flags.gif) center no-repeat`;
+        optb.style.background = `url(assets/images/all-flags.gif) center no-repeat`;
+        opta.id = "option1";
+        optb.id = "option2";
+        document.getElementById("option1").className = "flag-disabled";
+        document.getElementById("option2").className = "flag-disabled";
         // Code Credit: https://stackoverflow.com/questions/47817325/storing-my-game-score-in-local-storage Antoni
         localStorage.setItem("result", document.getElementById("correct").innerHTML);
         location.href = 'finished.html';
