@@ -493,6 +493,40 @@ Medium and Below
 
 ![Footer](documentation/testing/vex-vex-footer.png)
 
+- As a user, I do not want to be able to break the game via the use of browser back buttons for example.
+
+An issue was encountered where use of the browser's back button on finished.html would break the game as it was possible for the user to navigate back to vex-vex.html and continue selecting flags beyond the limit of 20. The below code was added to the endGame function and to style.css to ensure that if a user pressed the browser's back button, the game would still function correctly.
+
+```javascript
+        let opta = document.getElementById(game.option1);
+        let optb = document.getElementById(game.option2);
+        opta.style.background = `url(assets/images/all-flags.gif) center no-repeat`;
+        optb.style.background = `url(assets/images/all-flags.gif) center no-repeat`;
+        opta.id = "option1";
+        optb.id = "option2";
+        document.getElementById("option1").className = "flag-disabled";
+        document.getElementById("option2").className = "flag-disabled";
+```
+
+```css
+.flag-disabled {
+    background: url(../images/all-flags.gif) center no-repeat;
+    width: 100%;
+    min-height: 300px;
+    pointer-events: none;
+}
+```
+
+- The endGame code works by defining opta and optb and assigning them the elements with IDs game.option1 and game.option2 respectively.
+- opta and optb have the background style updated to be the placeholder image of the waving flag gif. This removes and country flag ID to make it clear to the user that no further guesses/clicks on the flag should be made.
+- opta and optb then get their IDs updated to be "option1" and "option2" respectively.
+- The IDs of "option1" and "option2" are then used to update the "flag" class on these elements to the "flag-disabled" class.
+- The css for the "flag-disabled" class contains the code _pointer-events: none;_ which disables the user's ability to click the flags.
+- Now, if the user attempts to navigate back from finished.html to vex-vex.html using the browser's back button, the below image is displayed where the flag options are not clickable.
+- The user can then use the 'Reset!' button or the 'Vexillological Vexation' page heading to start the game again or navigate back to index.html respectively.
+
+![Clicks Disabled If Back Button Used](documentation/testing/vex-vex-clicks-disabled.png)
+
 ## Unfixed Bugs
 
 The unfixed bugs I have been unable to resolve are discussed below.
