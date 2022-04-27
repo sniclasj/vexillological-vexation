@@ -527,6 +527,10 @@ An issue was encountered where use of the browser's back button on finished.html
 
 ![Clicks Disabled If Back Button Used](documentation/testing/vex-vex-clicks-disabled.png)
 
+Note: The above fix was required for the Chrome Desktop and Safari Mobile browsers as clicking the browser's back button would send the user back to 'Game Over' screen (above) but with the ability to click on the button elements that were still displaying flag images which would lead to the game breaking.
+
+When the back button was clicked whilst on finished.html on the Edge Desktop browser, the user would still be sent back to vex-vex.html, however the game would automatically reset back to Question 1 with score tallies of zero.
+
 ## Unfixed Bugs
 
 The unfixed bugs I have been unable to resolve are discussed below.
