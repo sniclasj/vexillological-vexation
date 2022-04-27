@@ -15,6 +15,7 @@
 - As a user, I want to be able to restart the game if I have made too many mistakes.
 - As a user, I want to be able to navigate back to the landing page in-game.
 - As a user, I want to be able to learn more about the person who developed the game.
+- As a user, I do not want to be able to break the game via the use of browser back buttons for example.
 
 ## UX
 
