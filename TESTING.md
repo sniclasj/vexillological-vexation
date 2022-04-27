@@ -518,7 +518,7 @@ An issue was encountered where use of the browser's back button on finished.html
 ```
 
 - The endGame code works by defining opta and optb and assigning them the elements with IDs game.option1 and game.option2 respectively.
-- opta and optb have the background style updated to be the placeholder image of the waving flag gif. This removes and country flag ID to make it clear to the user that no further guesses/clicks on the flag should be made.
+- opta and optb have the background style updated to be the placeholder image of the waving flag gif. This removes any country flag ID to make it clear to the user that no further guesses/clicks on the flag should be made.
 - opta and optb then get their IDs updated to be "option1" and "option2" respectively.
 - The IDs of "option1" and "option2" are then used to update the "flag" class on these elements to the "flag-disabled" class.
 - The css for the "flag-disabled" class contains the code _pointer-events: none;_ which disables the user's ability to click the flags.
