@@ -114,3 +114,10 @@ button {
     width: 100%;
     min-height: 300px;
 }
+
+.flag-disabled {
+    background: url(../images/all-flags.gif) center no-repeat;
+    width: 100%;
+    min-height: 300px;
+    pointer-events: none;
+}
